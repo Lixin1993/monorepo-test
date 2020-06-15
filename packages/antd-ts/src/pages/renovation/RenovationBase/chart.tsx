@@ -17,7 +17,7 @@ interface IProps {
 
 const ChartModal = (props: IProps) => {
   const { visible, setVisible, data } = props
-  const chartRef:any = useRef(null)
+  const chartRef:any = useRef(undefined)
 
   useEffect(() => {
     setTimeout(() => {
@@ -35,13 +35,13 @@ const ChartModal = (props: IProps) => {
           }]
         })
       }
-    }, 0)
+    })
   })
 
   return (
     <Modal
       width={'70vw'}
-      footer={null}
+      footer={undefined}
       title={'硬装金额统计表'}
       destroyOnClose
       visible={visible}

@@ -1,9 +1,0 @@
-{
-  "plugins": [
-    ["module-resolver", {
-      "extensions": [".js", ".ios.js", ".android.js"],
-      "alias": {
-        "@helper": "./app/helper"
-      }
-    }], "equire", "transform-decorators-legacy"]
-}

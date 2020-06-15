@@ -17,7 +17,9 @@ export interface IDataSource {
 }
 
 const createDataSource = (data: Array<IItemDataSource> | undefined): Array<IDataSource> | [] => {
-  if (!data) return []
+  if (!data) {
+    return []
+  }
   const types = [...new Set(data.map((item: IItemDataSource) => item.type))]
   const dataSource = types.map(item => {
     const typeNameItem = data.find((itemData: IItemDataSource) => itemData.type === item)
@@ -41,6 +43,16 @@ const RenovationBase = () => {
   const [visibleChartModal, setVisibleChartModal] = useState(false)
   const [tableSetting, setTableSetting] = useState<ITableSetting>({ page: 1, size: 10 })
   const [chartData, setChartData] = useState<Array<IItemDataSource | IDataSource>>([])
+
+  const getData = () => {
+    const payload = tableSetting
+    getRenovationBaseList(payload).then((res: IResponse) => {
+      if(res.code === 0) {
+        setItemDataSource(res.data.list)
+        setDataSource(createDataSource(res.data.list))
+      }
+    })
+  }
 
   const itemColumns = [
     { title: '名称',  dataIndex: 'name',  key: 'name' },
@@ -68,9 +80,7 @@ const RenovationBase = () => {
                   message.error('删除失败')
                 }
               },
-              onCancel() {},
             });
-            
           }}>删除</Button>
         </span>
       )
@@ -95,17 +105,7 @@ const RenovationBase = () => {
     }
   ]
 
-  const getData = () => {
-    const payload = tableSetting
-    getRenovationBaseList(payload).then((res: IResponse) => {
-      if(res.code === 0) {
-        setItemDataSource(res.data.list)
-        setDataSource(createDataSource(res.data.list))
-      }
-    })
-  }
-
-  useEffect(() => {getData() }, []) 
+  useEffect(() => getData(), [])
 
   return (
     <div>
@@ -148,7 +148,5 @@ const RenovationBase = () => {
     </div>
   )
 }
-
-
 
 export default RenovationBase

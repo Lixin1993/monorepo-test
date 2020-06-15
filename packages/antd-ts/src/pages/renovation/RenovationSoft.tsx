@@ -9,7 +9,6 @@ const RenovationSoft = () => {
       <Modal visible={visible} onCancel={() => setVisible(false)} />
     </div>
   )
-  
 }
 
 export default RenovationSoft
