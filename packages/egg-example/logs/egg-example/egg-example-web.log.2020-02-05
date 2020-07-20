@@ -1,0 +1,401 @@
+2020-01-20 10:05:46,618 ERROR 84385 [-/::1/-/5036ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5022,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 84385
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 10:06:11,536 ERROR 84407 [-/::1/-/5024ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5016,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 84407
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 10:06:33,600 ERROR 84407 [-/::1/-/5007ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5006,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 84407
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 10:15:55,517 ERROR 84407 [-/undefined/-/5005ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::":3},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5005,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 84407
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 10:15:57,437 ERROR 84407 [-/undefined/-/5005ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::":2},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 4
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5004,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 84407
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 10:15:58,923 ERROR 84407 [-/undefined/-/5002ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 5
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5001,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 84407
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 10:15:59,771 ERROR 84407 [-/::1/-/5003ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":6,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ConnectionTimeoutError"
+requestId: 6
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 84407
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 17:25:17,524 WARN 87467 [-/::1/-/122ms GET /news] nodejs.JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor=\"white\"><script>\nwith(document)with(body)with(insertBefore(createElement(\"script\"),firstChild))setAttribute(\"exparams\",\"category=&userid=&aplus&yunid=&&trid=0b85aea615795123174317778e&asid=AQAAAAD9cSVeahYRaAAAAACvskccwTqeYw==\",id=\"tb-beacon-aplus\",src=(location>\"https\"?\"//g\":\"//g\")+\".alicdn.com/alilog/mlog/aplus_v2.js\")\n</script>\n\r\n<h1>404 Not Found</h1>\r\n<p>The requested URL was not found on this server.</body>\r\n</html>\r\n"), GET http://ip.taobao.com/service/getIpInfo2.php 404 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"ip.taobao.com:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"date":"Mon, 20 Jan 2020 09:25:17 GMT","content-type":"text/html","transfer-encoding":"chunked","connection":"close","vary":"Accept-Encoding"}
+headers: {"date":"Mon, 20 Jan 2020 09:25:17 GMT","content-type":"text/html","transfer-encoding":"chunked","connection":"close","vary":"Accept-Encoding"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:1153:24)
+    at /Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:883:23
+    at decodeContent (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:690:14)
+    at IncomingMessage.<anonymous> (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:864:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: "JSONResponseFormatError"
+data: "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor=\"white\"><script>\nwith(document)with(body)with(insertBefore(createElement(\"script\"),firstChild))setAttribute(\"exparams\",\"category=&userid=&aplus&yunid=&&trid=0b85aea615795123174317778e&asid=AQAAAAD9cSVeahYRaAAAAACvskccwTqeYw==\",id=\"tb-beacon-aplus\",src=(location>\"https\"?\"//g\":\"//g\")+\".alicdn.com/alilog/mlog/aplus_v2.js\")\n</script>\n\r\n<h1>404 Not Found</h1>\r\n<p>The requested URL was not found on this server.</body>\r\n</html>\r\n"
+path: "/service/getIpInfo2.php?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: 404
+headers: {"date":"Mon, 20 Jan 2020 09:25:17 GMT","content-type":"text/html","transfer-encoding":"chunked","connection":"close","vary":"Accept-Encoding"}
+res: {"status":404,"statusCode":404,"statusMessage":"Not Found","headers":{"date":"Mon, 20 Jan 2020 09:25:17 GMT","content-type":"text/html","transfer-encoding":"chunked","connection":"close","vary":"Accept-Encoding"},"size":543,"aborted":false,"rt":116,"keepAliveSocket":false,"data":"<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\r\n<html>\r\n<head><title>404 Not Found</title></head>\r\n<body bgcolor=\"white\"><script>\nwith(document)with(body)with(insertBefore(createElement(\"script\"),firstChild))setAttribute(\"exparams\",\"category=&userid=&aplus&yunid=&&trid=0b85aea615795123174317778e&asid=AQAAAAD9cSVeahYRaAAAAACvskccwTqeYw==\",id=\"tb-beacon-aplus\",src=(location>\"https\"?\"//g\":\"//g\")+\".alicdn.com/alilog/mlog/aplus_v2.js\")\n</script>\n\r\n<h1>404 Not Found</h1>\r\n<p>The requested URL was not found on this server.</body>\r\n</html>\r\n","requestUrls":["http://ip.taobao.com/service/getIpInfo2.php"],"timing":null,"remoteAddress":"106.14.51.107","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 87467
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 17:32:18,781 WARN 87514 [-/::1/-/98ms GET /news] nodejs.JSONResponseFormatError: Unexpected token v in JSON at position 0 (data json format: "var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};"), GET http://pv.sohu.com/cityjson 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"pv.sohu.com:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:18 GMT","fss-proxy":"Powered by 9528288.17720298.10206557, Powered by 3747375.4992569.5587010"}
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:18 GMT","fss-proxy":"Powered by 9528288.17720298.10206557, Powered by 3747375.4992569.5587010"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:1153:24)
+    at /Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:883:23
+    at decodeContent (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:690:14)
+    at IncomingMessage.<anonymous> (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:864:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: "JSONResponseFormatError"
+data: "var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};"
+path: "/cityjson?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: 200
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:18 GMT","fss-proxy":"Powered by 9528288.17720298.10206557, Powered by 3747375.4992569.5587010"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:18 GMT","fss-proxy":"Powered by 9528288.17720298.10206557, Powered by 3747375.4992569.5587010"},"size":82,"aborted":false,"rt":88,"keepAliveSocket":false,"data":"var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};","requestUrls":["http://pv.sohu.com/cityjson"],"timing":null,"remoteAddress":"109.244.80.130","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 87514
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 17:32:32,456 WARN 87514 [-/::1/-/46ms GET /news] nodejs.JSONResponseFormatError: Unexpected token v in JSON at position 0 (data json format: "var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};"), GET http://pv.sohu.com/cityjson 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":1,"freeSockets":{},"sockets":{"pv.sohu.com:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:32 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"}
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:32 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:1153:24)
+    at /Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:883:23
+    at decodeContent (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:690:14)
+    at IncomingMessage.<anonymous> (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:864:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: "JSONResponseFormatError"
+data: "var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};"
+path: "/cityjson?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: 200
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:32 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:32 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"},"size":82,"aborted":false,"rt":44,"keepAliveSocket":false,"data":"var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};","requestUrls":["http://pv.sohu.com/cityjson"],"timing":null,"remoteAddress":"109.244.80.130","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 87514
+hostname: lixindeMacBook-Pro.local
+
+2020-01-20 17:32:33,425 WARN 87514 [-/::1/-/42ms GET /news] nodejs.JSONResponseFormatError: Unexpected token v in JSON at position 0 (data json format: "var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};"), GET http://pv.sohu.com/cityjson 200 (connected: true, keepalive socket: true, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":2,"freeSockets":{},"sockets":{"pv.sohu.com:80:":1},"requests":{}}, socketHandledRequests: 2, socketHandledResponses: 2)
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:33 GMT","fss-proxy":"Powered by 5903434.9966676.7083656, Powered by 3747375.4992569.5587010"}
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:33 GMT","fss-proxy":"Powered by 5903434.9966676.7083656, Powered by 3747375.4992569.5587010"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:1153:24)
+    at /Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:883:23
+    at decodeContent (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:690:14)
+    at IncomingMessage.<anonymous> (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:864:7)
+    at emitNone (events.js:111:20)
+    at IncomingMessage.emit (events.js:208:7)
+    at endReadableNT (_stream_readable.js:1064:12)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+name: "JSONResponseFormatError"
+data: "var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};"
+path: "/cityjson?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: 200
+headers: {"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:33 GMT","fss-proxy":"Powered by 5903434.9966676.7083656, Powered by 3747375.4992569.5587010"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/json; charset=gbk","content-length":"82","connection":"keep-alive","server":"nginx/1.0.15","date":"Mon, 20 Jan 2020 09:32:33 GMT","fss-proxy":"Powered by 5903434.9966676.7083656, Powered by 3747375.4992569.5587010"},"size":82,"aborted":false,"rt":41,"keepAliveSocket":true,"data":"var returnCitySN = {\"cip\": \"182.149.129.251\", \"cid\": \"510000\", \"cname\": \"四川省\"};","requestUrls":["http://pv.sohu.com/cityjson"],"timing":null,"remoteAddress":"109.244.80.130","remotePort":80,"socketHandledRequests":2,"socketHandledResponses":2}
+pid: 87514
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 00:07:43,961 WARN 47246 [-/127.0.0.1/-/109ms GET /news] nodejs.JSONResponseFormatError: Unexpected token v in JSON at position 0 (data json format: "var returnCitySN = {\"cip\": \"125.70.204.238\", \"cid\": \"510100\", \"cname\": \"四川省成都市\"};"), GET http://pv.sohu.com/cityjson 200 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"pv.sohu.com:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"content-type":"text/json; charset=gbk","content-length":"87","connection":"keep-alive","server":"nginx/1.0.15","date":"Tue, 04 Feb 2020 16:07:43 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"}
+headers: {"content-type":"text/json; charset=gbk","content-length":"87","connection":"keep-alive","server":"nginx/1.0.15","date":"Tue, 04 Feb 2020 16:07:43 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"}
+    at JSON.parse (<anonymous>)
+    at parseJSON (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:1153:24)
+    at /Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:883:23
+    at decodeContent (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:690:14)
+    at IncomingMessage.<anonymous> (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:864:7)
+    at IncomingMessage.emit (events.js:187:15)
+    at endReadableNT (_stream_readable.js:1094:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+name: "JSONResponseFormatError"
+data: "var returnCitySN = {\"cip\": \"125.70.204.238\", \"cid\": \"510100\", \"cname\": \"四川省成都市\"};"
+path: "/cityjson?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: 200
+headers: {"content-type":"text/json; charset=gbk","content-length":"87","connection":"keep-alive","server":"nginx/1.0.15","date":"Tue, 04 Feb 2020 16:07:43 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"}
+res: {"status":200,"statusCode":200,"statusMessage":"OK","headers":{"content-type":"text/json; charset=gbk","content-length":"87","connection":"keep-alive","server":"nginx/1.0.15","date":"Tue, 04 Feb 2020 16:07:43 GMT","fss-proxy":"Powered by 8414159.15492057.9092411, Powered by 3747375.4992569.5587010"},"size":87,"aborted":false,"rt":103,"keepAliveSocket":false,"data":"var returnCitySN = {\"cip\": \"125.70.204.238\", \"cid\": \"510100\", \"cname\": \"四川省成都市\"};","requestUrls":["http://pv.sohu.com/cityjson"],"timing":null,"remoteAddress":"109.244.80.130","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}
+pid: 47246
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 00:20:48,236 ERROR 47509 [-/127.0.0.1/-/198ms GET /news] nodejs.ReferenceError: newsList is not defined
+    at NewsController.list (/Users/lixin/project/egg-example/app/controller/news.js:9:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 47509
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 00:21:02,450 ERROR 47509 [-/127.0.0.1/-/180ms GET /news] nodejs.ReferenceError: newsList is not defined
+    at NewsController.list (/Users/lixin/project/egg-example/app/controller/news.js:9:47)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 47509
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 22:21:20,382 ERROR 28357 [-/127.0.0.1/-/364ms GET /news] nodejs.TypeError: Cannot read property 'list' of undefined
+    at NewsController.list (/Users/lixin/project/egg-example/app/controller/news.js:10:41)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28357
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 22:43:05,798 ERROR 28548 [-/127.0.0.1/-/5023ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5012,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 28548
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 22:43:27,487 ERROR 28548 [-/127.0.0.1/-/5006ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5005,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 28548
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 22:51:01,722 ERROR 28636 [-/127.0.0.1/-/5025ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json?print=pretty -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?print=pretty"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5013,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 28636
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 22:51:49,520 ERROR 28645 [-/127.0.0.1/-/5025ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/topstories.json?print=pretty -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?print=pretty&orderBy=%22%24key%22&startAt=%220%22&endAt=%2210%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5013,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 28645
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 22:54:38,231 ERROR 28670 [-/127.0.0.1/-/5026ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0/maxitem.json?print=pretty -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/maxitem.json?print=pretty"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5010,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0/maxitem.json?print=pretty"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 28670
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 22:58:35,131 ERROR 28730 [-/127.0.0.1/-/5021ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://hacker-news.firebaseio.com/v0?key=30b23529aee026f95780daf1dec571dc -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/lixin/project/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0?key=30b23529aee026f95780daf1dec571dc"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5010,"keepAliveSocket":false,"requestUrls":["http://hacker-news.firebaseio.com/v0?key=30b23529aee026f95780daf1dec571dc"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 28730
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 23:00:15,817 ERROR 28761 [-/127.0.0.1/-/430ms GET /news] nodejs.ReferenceError: data is not defined
+    at NewsService.listService (/Users/lixin/project/egg-example/app/service/news.js:12:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28761
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 23:04:50,279 ERROR 28821 [-/127.0.0.1/-/161ms GET /news] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at NewsService.listService (/Users/lixin/project/egg-example/app/service/news.js:12:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28821
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 23:05:18,517 ERROR 28830 [-/127.0.0.1/-/387ms GET /news] nodejs.TypeError: Cannot read property 'result' of undefined
+    at NewsService.listService (/Users/lixin/project/egg-example/app/service/news.js:12:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28830
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 23:05:21,964 ERROR 28830 [-/127.0.0.1/-/107ms GET /news] nodejs.TypeError: Cannot read property 'result' of undefined
+    at NewsService.listService (/Users/lixin/project/egg-example/app/service/news.js:12:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28830
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 23:05:34,345 ERROR 28833 [-/127.0.0.1/-/191ms GET /news] nodejs.TypeError: Cannot read property 'result' of undefined
+    at NewsService.listService (/Users/lixin/project/egg-example/app/service/news.js:12:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28833
+hostname: lixindeMacBook-Pro.local
+
+2020-02-05 23:08:38,886 ERROR 28864 [-/127.0.0.1/-/152ms GET /news] nodejs.ReferenceError: dataList is not defined
+    at NewsService.listService (/Users/lixin/project/egg-example/app/service/news.js:12:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 28864
+hostname: lixindeMacBook-Pro.local
+

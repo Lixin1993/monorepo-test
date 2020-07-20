@@ -1,0 +1,248 @@
+2020-02-11 01:05:51,314 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 1752386ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 02:06:29,527 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 3598197ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 02:25:40,912 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 1131371ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 02:38:43,236 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 221437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 03:52:33,430 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 4330154ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 04:56:22,445 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 3809003ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 05:01:57,481 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 294988ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 05:28:56,805 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 1519295ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 05:35:16,167 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 319353ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 06:12:50,438 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 2194256ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 06:23:24,211 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 73601ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 06:33:52,119 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 427830ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 06:52:50,309 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 1038143ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 07:01:31,540 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 481217ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 07:08:28,108 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 196480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 07:36:18,936 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 1610803ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 07:41:34,913 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 195932ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 08:05:43,139 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 1286841ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-11 09:03:22,057 ERROR 35811 nodejs.ClusterClientNoResponseError: client no response in 2998752ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35811
+hostname: lixindeMacBook-Pro.local
+
+2020-02-16 23:06:04,210 ERROR 71297 nodejs.ClusterClientNoResponseError: client no response in 87263ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 71297
+hostname: lixindeMacBook-Pro.local
+
+2020-02-16 23:59:41,122 ERROR 73408 [-/::1/-/13ms POST /renovation/base/item] nodejs.TypeError: ctx.service.renovation.base.item is not a function
+    at RenovationBaseController.item (/Users/lixin/project/egg-example/app/controller/renovation/base.js:16:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 73408
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 00:00:23,174 ERROR 73423 [-/::1/-/21ms POST /renovation/base/item] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'value' in 'field list'
+    at Query.Sequence._packetToError (/Users/lixin/project/egg-example/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/lixin/project/egg-example/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/lixin/project/egg-example/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/lixin/project/egg-example/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/lixin/project/egg-example/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/lixin/project/egg-example/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/lixin/project/egg-example/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/lixin/project/egg-example/node_modules/mysql/lib/Connection.js:526:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    --------------------
+    at Pool.query (/Users/lixin/project/egg-example/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/lixin/project/egg-example/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/lixin/project/egg-example/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/lixin/project/egg-example/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/lixin/project/egg-example/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/lixin/project/egg-example/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/lixin/project/egg-example/node_modules/co/index.js:65:19)
+    at /Users/lixin/project/egg-example/node_modules/co/index.js:54:5
+    sql: INSERT INTO `renovation_base`(`id`, `typeName`, `name`, `type`, `value`) VALUES('705d4bc0-50d5-11ea-9f58-d50c3cde7a6c', '厨房', '厨房台盆', 'kitchen', '1131')
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'value' in 'field list'"
+sqlState: "42S22"
+index: 0
+sql: "INSERT INTO `renovation_base`(`id`, `typeName`, `name`, `type`, `value`) VALUES('705d4bc0-50d5-11ea-9f58-d50c3cde7a6c', '厨房', '厨房台盆', 'kitchen', '1131')"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_BAD_FIELD_ERRORError"
+pid: 73423
+hostname: lixindeMacBook-Pro.local
+

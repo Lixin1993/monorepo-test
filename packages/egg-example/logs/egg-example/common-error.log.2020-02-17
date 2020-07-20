@@ -1,0 +1,437 @@
+2020-02-17 01:00:36,754 ERROR 74783 [-/::1/-/3ms DELETE /renovation/base/item/98f69190-50da-11ea-a6c9-cff9706e5b75] nodejs.ReferenceError: id is not defined
+    at RenovationBaseController.deleteItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:25:63)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 74783
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 01:01:44,430 ERROR 74798 [-/::1/-/6ms DELETE /renovation/base/item/98f69190-50da-11ea-a6c9-cff9706e5b75] nodejs.ReferenceError: id is not defined
+    at RenovationBaseController.deleteItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:25:63)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 74798
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 01:03:50,045 ERROR 74817 [-/::1/-/2ms DELETE /renovation/base/item/98f69190-50da-11ea-a6c9-cff9706e5b75] nodejs.ReferenceError: id is not defined
+    at RenovationBaseController.deleteItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:25:63)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 74817
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 01:05:11,084 ERROR 74838 [-/::1/-/5ms DELETE /renovation/base/item/98f69190-50da-11ea-a6c9-cff9706e5b75] nodejs.ReferenceError: object is not defined
+    at RenovationBaseService.deleteItem (/Users/lixin/project/egg-example/app/service/renovation/base.js:23:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 74838
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 01:16:10,644 ERROR 74782 nodejs.ClusterClientNoResponseError: client no response in 280918ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74782
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 06:58:19,180 ERROR 74782 nodejs.ClusterClientNoResponseError: client no response in 7217214ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74782
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 09:00:07,800 ERROR 74782 nodejs.ClusterClientNoResponseError: client no response in 7068576ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74782
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:06:06,196 ERROR 76171 [-/::1/-/16ms PUT /renovation/base/item/undefined] nodejs.TypeError: ctx.service.renovation.base.updateItem is not a function
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:33:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76171
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:07:01,132 ERROR 76618 [-/::1/-/11ms PUT /renovation/base/item/undefined] nodejs.TypeError: ctx.service.renovation.base.updateItem is not a function
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76618
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:07:55,291 ERROR 76618 [-/::1/-/2ms PUT /renovation/base/item/undefined] nodejs.TypeError: ctx.service.renovation.base.updateItem is not a function
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76618
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:10:03,110 ERROR 76618 [-/::1/-/1ms PUT /renovation/base/item/56c83c70-50d9-11ea-a6c9-cff9706e5b75] nodejs.TypeError: ctx.service.renovation.base.updateItem is not a function
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76618
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:10:30,568 ERROR 76618 [-/::1/-/1ms PUT /renovation/base/item/56c83c70-50d9-11ea-a6c9-cff9706e5b75] nodejs.TypeError: ctx.service.renovation.base.updateItem is not a function
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76618
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:11:12,637 ERROR 76690 [-/::1/-/13ms PUT /renovation/base/item/56c83c70-50d9-11ea-a6c9-cff9706e5b75] nodejs.TypeError: ctx.service.renovation.base.updateItem is not a function
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76690
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:12:07,999 ERROR 76699 [-/::1/-/22ms PUT /renovation/base/item/56c83c70-50d9-11ea-a6c9-cff9706e5b75] nodejs.TypeError: ctx.service.renovation.base.updateItem is not a function
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/lixin/project/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/lixin/project/egg-example/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76699
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:18:16,144 ERROR 76763 [-/::1/-/17ms PUT /renovation/base/item/ec626c60-50d9-11ea-a6c9-cff9706e5b75] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/lixin/project/egg-example/node_modules/ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/lixin/project/egg-example/node_modules/co/index.js:65:19)
+    at /Users/lixin/project/egg-example/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/lixin/project/egg-example/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/lixin/project/egg-example/node_modules/co/index.js:30:15)
+    at RenovationBaseService.updateItem (/Users/lixin/project/egg-example/app/service/renovation/base.js:29:33)
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76763
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:19:09,588 ERROR 76780 [-/::1/-/16ms PUT /renovation/base/item/ec626c60-50d9-11ea-a6c9-cff9706e5b75] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/lixin/project/egg-example/node_modules/ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/lixin/project/egg-example/node_modules/co/index.js:65:19)
+    at /Users/lixin/project/egg-example/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/lixin/project/egg-example/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/lixin/project/egg-example/node_modules/co/index.js:30:15)
+    at RenovationBaseService.updateItem (/Users/lixin/project/egg-example/app/service/renovation/base.js:29:33)
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76780
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 11:32:32,427 ERROR 76863 [-/::1/-/19ms PUT /renovation/base/item/ec626c60-50d9-11ea-a6c9-cff9706e5b75] nodejs.Error: Can not auto detect update condition, please set options.where, or make sure obj.id exists
+    at RDSClient.proto.update (/Users/lixin/project/egg-example/node_modules/ali-rds/lib/operator.js:151:13)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (/Users/lixin/project/egg-example/node_modules/co/index.js:65:19)
+    at /Users/lixin/project/egg-example/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (/Users/lixin/project/egg-example/node_modules/co/index.js:50:10)
+    at RDSClient.createPromise [as update] (/Users/lixin/project/egg-example/node_modules/co/index.js:30:15)
+    at RenovationBaseService.updateItem (/Users/lixin/project/egg-example/app/service/renovation/base.js:29:33)
+    at RenovationBaseController.updateItem (/Users/lixin/project/egg-example/app/controller/renovation/base.js:34:52)
+    at Object.callFn (/Users/lixin/project/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 76863
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 12:33:18,651 ERROR 74782 nodejs.ClusterClientNoResponseError: client no response in 1441523ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74782
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 15:25:57,230 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 199527ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 15:33:30,142 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 372679ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 16:45:37,564 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 761436ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 17:32:57,110 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 92824ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 18:22:45,497 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 147262ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 18:41:19,969 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 334025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 19:19:14,905 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 594005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 19:50:10,610 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 1672005ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 20:21:13,663 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 1745012ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 21:03:01,005 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 2404395ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 22:06:36,665 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 3652009ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 22:25:48,225 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 1009289ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 22:45:11,959 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 83257ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-17 23:47:59,199 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 60430ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 01:14:22,006 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 61356ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 02:02:18,030 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 2835986ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 02:16:53,042 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 834994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 04:17:50,069 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 7217006ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 06:18:27,083 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 7216994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 06:27:43,034 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 495151ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 07:23:55,131 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 3332074ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+
+2020-02-18 08:15:11,648 ERROR 99997 nodejs.ClusterClientNoResponseError: client no response in 3036499ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 99997
+hostname: lixindeMacBook-Pro.local
+

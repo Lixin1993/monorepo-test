@@ -1,0 +1,105 @@
+2020-02-11 00:00:08,735 INFO 35811 [Timer] /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 16191268ms at 2020-02-11 04:30:00.003
+2020-02-11 00:00:08,737 INFO 35811 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86391265ms at 2020-02-12 00:00:00.002
+2020-02-11 00:00:08,739 INFO 35811 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86392263ms at 2020-02-12 00:00:01.002
+2020-02-11 00:00:08,617 INFO 35812 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-11 00:00:08,617 INFO 35812 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-11 00:00:08,617 INFO 35812 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-11 00:00:12,387 INFO 35814 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-11 00:00:12,387 INFO 35814 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-11 00:00:12,387 INFO 35814 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 22:48:56,534 INFO 71297 [Timer] /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20463468ms at 2020-02-17 04:30:00.002
+2020-02-16 22:48:56,535 INFO 71297 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4263465ms at 2020-02-17 00:00:00.000
+2020-02-16 22:48:56,535 INFO 71297 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4264465ms at 2020-02-17 00:00:01.000
+2020-02-16 22:48:56,325 INFO 71298 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 22:48:56,325 INFO 71298 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 22:48:56,325 INFO 71298 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:47:40,771 INFO 73111 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:47:40,772 INFO 73111 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:47:40,772 INFO 73111 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:47:58,384 INFO 73120 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:47:58,384 INFO 73120 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:47:58,384 INFO 73120 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:48:21,754 INFO 73123 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:48:21,754 INFO 73123 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:48:21,754 INFO 73123 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:48:39,116 INFO 73124 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:48:39,116 INFO 73124 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:48:39,116 INFO 73124 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:49:29,035 INFO 73134 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:49:29,035 INFO 73134 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:49:29,035 INFO 73134 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:49:39,365 INFO 73138 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:49:39,365 INFO 73138 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:49:39,365 INFO 73138 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:50:17,004 INFO 73147 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:50:17,004 INFO 73147 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:50:17,004 INFO 73147 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:50:25,926 INFO 73148 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:50:25,926 INFO 73148 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:50:25,926 INFO 73148 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:01,913 INFO 73155 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:01,913 INFO 73155 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:01,913 INFO 73155 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:08,034 INFO 73156 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:08,034 INFO 73156 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:08,034 INFO 73156 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:13,527 INFO 73157 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:13,527 INFO 73157 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:13,527 INFO 73157 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:23,720 INFO 73158 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:23,720 INFO 73158 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:23,720 INFO 73158 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:28,657 INFO 73159 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:28,657 INFO 73159 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:28,657 INFO 73159 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:35,024 INFO 73160 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:35,024 INFO 73160 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:35,024 INFO 73160 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:36,970 INFO 73161 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:36,970 INFO 73161 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:36,970 INFO 73161 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:42,475 INFO 73162 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:42,475 INFO 73162 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:42,475 INFO 73162 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:51:44,027 INFO 73163 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:51:44,027 INFO 73163 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:51:44,027 INFO 73163 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:52:17,545 INFO 73176 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:52:17,545 INFO 73176 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:52:17,545 INFO 73176 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:52:22,179 INFO 73178 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:52:22,179 INFO 73178 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:52:22,179 INFO 73178 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:52:59,191 INFO 73205 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:52:59,191 INFO 73205 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:52:59,191 INFO 73205 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:53:04,648 INFO 73206 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:53:04,648 INFO 73206 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:53:04,648 INFO 73206 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:53:17,365 INFO 73207 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:53:17,365 INFO 73207 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:53:17,365 INFO 73207 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:53:22,509 INFO 73210 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:53:22,509 INFO 73210 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:53:22,509 INFO 73210 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:53:29,993 INFO 73211 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:53:29,993 INFO 73211 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:53:29,993 INFO 73211 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:53:47,621 INFO 73212 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:53:47,621 INFO 73212 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:53:47,621 INFO 73212 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:54:06,294 INFO 73221 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:54:06,294 INFO 73221 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:54:06,294 INFO 73221 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-16 23:59:21,487 INFO 73408 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-16 23:59:21,487 INFO 73408 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-16 23:59:21,487 INFO 73408 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-17 00:00:14,450 INFO 73423 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-02-17 00:00:14,450 INFO 73423 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-02-17 00:00:14,450 INFO 73423 [egg-schedule]: register schedule /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-02-17 00:01:08,581 INFO 71297 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86331422ms at 2020-02-18 00:00:00.003
+2020-02-17 00:01:08,579 INFO 73423 [Job#15818688685788581441524668631] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-02-17 00:01:08,586 INFO 73423 [Job#15818688685788581441524668631] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 7ms
+2020-02-17 00:01:09,580 INFO 71297 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86331424ms at 2020-02-18 00:00:01.004
+2020-02-17 00:01:09,577 INFO 73423 [Job#15818688695768581451504597321] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-02-17 00:01:09,582 INFO 73423 [Job#15818688695768581451504597321] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 5ms

@@ -1,0 +1,301 @@
+{
+  "keys": "/Users/lixin/project/egg-example/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/lixin/project/egg-example/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/lixin/project/egg-example/config/config.default.js"
+    },
+    "root": "/Users/lixin/project/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/lixin/project/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lixin/project/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "key": "/Users/lixin/project/egg-example/config/config.default.js",
+    "serverUrl": "/Users/lixin/project/egg-example/config/config.default.js"
+  },
+  "weather": {
+    "key": "/Users/lixin/project/egg-example/config/config.default.js",
+    "serverUrl": "/Users/lixin/project/egg-example/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/Users/lixin/project/egg-example/config/config.default.js",
+    "allowMethods": "/Users/lixin/project/egg-example/config/config.default.js",
+    "credentials": "/Users/lixin/project/egg-example/config/config.default.js"
+  },
+  "todoList": {
+    "todo": "/Users/lixin/project/egg-example/config/config.default.js",
+    "done": "/Users/lixin/project/egg-example/config/config.default.js"
+  },
+  "mysql": {
+    "clients": {
+      "db1": {
+        "host": "/Users/lixin/project/egg-example/config/config.default.js",
+        "port": "/Users/lixin/project/egg-example/config/config.default.js",
+        "user": "/Users/lixin/project/egg-example/config/config.default.js",
+        "password": "/Users/lixin/project/egg-example/config/config.default.js",
+        "database": "/Users/lixin/project/egg-example/config/config.default.js"
+      }
+    },
+    "app": "/Users/lixin/project/egg-example/config/config.default.js",
+    "agent": "/Users/lixin/project/egg-example/config/config.default.js",
+    "default": {
+      "database": "/Users/lixin/project/egg-example/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/lixin/project/egg-example/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": "/Users/lixin/project/egg-example/config/config.default.js",
+    "domainWhiteList": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/lixin/project/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/lixin/project/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/lixin/project/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/lixin/project/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/lixin/project/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lixin/project/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/lixin/project/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lixin/project/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lixin/project/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/lixin/project/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lixin/project/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lixin/project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/lixin/project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/lixin/project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lixin/project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/lixin/project/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lixin/project/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lixin/project/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lixin/project/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/lixin/project/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lixin/project/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/lixin/project/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/lixin/project/egg-example/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lixin/project/egg-example/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lixin/project/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lixin/project/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/lixin/project/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lixin/project/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lixin/project/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lixin/project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lixin/project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lixin/project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lixin/project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lixin/project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lixin/project/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lixin/project/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/lixin/project/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/lixin/project/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/lixin/project/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/lixin/project/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/lixin/project/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/lixin/project/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/lixin/project/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/lixin/project/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/lixin/project/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/lixin/project/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/lixin/project/egg-example/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "cookies": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "main": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-security": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "node-uuid": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "textLimit": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lixin/project/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lixin/project/egg-example/node_modules/egg/config/config.default.js"
+}

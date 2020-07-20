@@ -1,0 +1,56 @@
+2020-02-18 10:31:12,100 INFO 99998 [egg-logrotator] app logger reload: got log-reload message
+2020-03-07 17:29:58,700 INFO 56967 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-03-07 17:29:58,730 INFO 56967 [egg-multipart] stream mode enable
+2020-03-07 17:29:58,732 INFO 56967 [egg-mysql] connecting root@127.0.0.1:3306/renovation
+2020-03-07 17:29:58,901 INFO 56967 [egg-static] starting static serve /public/ -> /Users/lixin/project/egg-example/app/public
+2020-03-07 17:29:58,903 INFO 56967 [egg-security] use methodnoallow middleware
+2020-03-07 17:29:58,904 INFO 56967 [egg-security] use noopen middleware
+2020-03-07 17:29:58,905 INFO 56967 [egg-security] use nosniff middleware
+2020-03-07 17:29:58,905 INFO 56967 [egg-security] use xssProtection middleware
+2020-03-07 17:29:58,906 INFO 56967 [egg-security] use xframe middleware
+2020-03-07 17:29:58,906 INFO 56967 [egg-security] use dta middleware
+2020-03-07 17:29:58,906 INFO 56967 [egg-security] compose 6 middlewares into one security middleware
+2020-03-07 17:29:58,920 INFO 56967 [egg:core] dump config after load, 6ms
+2020-03-07 17:29:58,942 INFO 56967 [egg-watcher:application] watcher start success
+2020-03-07 17:29:59,245 INFO 56967 [egg-mysql] instance[0] status OK, rds currentTime: Sat Mar 07 2020 17:29:59 GMT+0800 (CST)
+2020-03-07 17:29:59,254 INFO 56967 [egg:core] dump config after ready, 7ms
+2020-03-07 18:06:48,163 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-07 19:10:59,327 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-07 19:32:05,632 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-07 19:52:44,757 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-07 20:13:43,008 WARN 56967 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-07 20:13:43,009 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-07 20:29:16,529 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-07 20:48:19,042 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-07 22:48:43,047 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 02:45:25,532 WARN 56967 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-08 02:45:25,644 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 04:45:42,709 WARN 56967 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-08 04:45:42,743 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 05:15:05,142 WARN 56967 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-08 05:15:05,214 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 06:01:53,302 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 11:52:59,740 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 14:03:15,554 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 18:03:35,014 WARN 56967 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-08 18:03:35,015 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-08 20:03:52,236 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-09 00:04:07,262 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-09 09:15:04,831 WARN 56967 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-03-09 09:15:04,834 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-03-09 09:57:24,421 WARN 56967 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-07-08 16:42:59,094 INFO 76329 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-08 16:42:59,121 INFO 76329 [egg-multipart] stream mode enable
+2020-07-08 16:42:59,122 INFO 76329 [egg-mysql] connecting root@127.0.0.1:3306/renovation
+2020-07-08 16:42:59,278 INFO 76329 [egg-static] starting static serve /public/ -> /Users/lixin/project/egg-example/app/public
+2020-07-08 16:42:59,280 INFO 76329 [egg-security] use methodnoallow middleware
+2020-07-08 16:42:59,281 INFO 76329 [egg-security] use noopen middleware
+2020-07-08 16:42:59,281 INFO 76329 [egg-security] use nosniff middleware
+2020-07-08 16:42:59,282 INFO 76329 [egg-security] use xssProtection middleware
+2020-07-08 16:42:59,282 INFO 76329 [egg-security] use xframe middleware
+2020-07-08 16:42:59,283 INFO 76329 [egg-security] use dta middleware
+2020-07-08 16:42:59,283 INFO 76329 [egg-security] compose 6 middlewares into one security middleware
+2020-07-08 16:42:59,293 INFO 76329 [egg:core] dump config after load, 5ms
+2020-07-08 16:42:59,311 INFO 76329 [egg-watcher:application] watcher start success
+2020-07-08 16:42:59,468 INFO 76329 [egg-mysql] instance[0] status OK, rds currentTime: Wed Jul 08 2020 16:42:59 GMT+0800 (CST)
+2020-07-08 16:42:59,476 INFO 76329 [egg:core] dump config after ready, 6ms
