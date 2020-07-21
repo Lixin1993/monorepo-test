@@ -5,6 +5,8 @@ import ChartModal from './chart'
 import { getRenovationBaseList, ITableSetting, deleteRenovationBaseItem, IItemDataSource } from '../../../api/renovation'
 import { IResponse } from '../../../api/initHttp'
 
+import 'antd/dist/antd.css'
+
 const { confirm } = Modal
 
 export interface IDataSource {

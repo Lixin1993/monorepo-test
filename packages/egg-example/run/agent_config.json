@@ -64,7 +64,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/lixin/project/egg-example/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -77,8 +77,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/lixin/project/egg-example/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/lixin/project/egg-example/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -124,14 +124,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/lixin/project/egg-example/app/public",
+      "dir": "/Users/lixin/project/monorepo/packages/egg-example/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/lixin/project/egg-example/app/view",
+      "root": "/Users/lixin/project/monorepo/packages/egg-example/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",
@@ -201,9 +201,9 @@
         "egg-bin": "^4.14.1"
       }
     },
-    "baseDir": "/Users/lixin/project/egg-example",
+    "baseDir": "/Users/lixin/project/monorepo/packages/egg-example",
     "HOME": "/Users/lixin",
-    "rundir": "/Users/lixin/project/egg-example/run",
+    "rundir": "/Users/lixin/project/monorepo/packages/egg-example/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -235,7 +235,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "/Users/lixin/project/egg-example/logs/egg-example",
+      "dir": "/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -330,8 +330,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-session",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -343,8 +343,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-security",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-security",
       "version": "2.7.1"
     },
     "jsonp": {
@@ -356,8 +356,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-jsonp",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -369,8 +369,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-onerror",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -380,8 +380,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-i18n",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -391,8 +391,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-watcher",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -402,8 +402,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-schedule",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -415,8 +415,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-multipart",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart",
       "version": "2.10.1"
     },
     "development": {
@@ -430,8 +430,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-development",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -443,8 +443,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-logrotator",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -454,8 +454,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-static",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -465,8 +465,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/node_modules/egg/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-view",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -479,8 +479,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-view-nunjucks",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
     },
     "cors": {
@@ -490,8 +490,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-cors",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-cors",
       "version": "2.2.3"
     },
     "mysql": {
@@ -501,8 +501,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/lixin/project/egg-example/config/plugin.js",
-      "path": "/Users/lixin/project/egg-example/node_modules/egg-mysql",
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-mysql",
       "version": "3.0.0"
     }
   }

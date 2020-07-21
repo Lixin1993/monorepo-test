@@ -190,3 +190,553 @@ hostname: lixindeMacBook-Pro.local
 2020-07-08 16:42:58,442 INFO 76325 [egg-watcher] Start watching: "/Users/lixin/project/egg-example/app.js"
 2020-07-08 16:42:58,442 INFO 76325 [egg-watcher:agent] watcher start success
 2020-07-08 16:42:58,482 INFO 76325 [egg:core] dump config after ready, 4ms
+2020-07-20 16:51:47,762 INFO 25574 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-20 16:51:47,779 INFO 25574 [egg:core] dump config after load, 5ms
+2020-07-20 16:51:47,811 INFO 25574 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-20 16:51:47,812 INFO 25574 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-20 16:51:47,812 INFO 25574 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-20 16:51:47,812 INFO 25574 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-20 16:51:47,812 INFO 25574 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-20 16:51:47,812 INFO 25574 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-20 16:51:47,812 INFO 25574 [egg-watcher:agent] watcher start success
+2020-07-20 16:51:47,841 INFO 25574 [egg:core] dump config after ready, 4ms
+2020-07-20 16:51:48,886 INFO 25574 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/lixin/project/monorepo/packages/egg-example/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":66603571,"size":64,"blocks":0,"atimeMs":1595235108874.8152,"mtimeMs":1595235108874.8152,"ctimeMs":1595235108874.8152,"birthtimeMs":1595235108874.8152,"atime":"2020-07-20T08:51:48.875Z","mtime":"2020-07-20T08:51:48.875Z","ctime":"2020-07-20T08:51:48.875Z","birthtime":"2020-07-20T08:51:48.875Z"},"remove":false,"isDirectory":true,"isFile":false}
+2020-07-20 17:01:28,306 INFO 25763 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-20 17:01:28,318 INFO 25763 [egg:core] dump config after load, 8ms
+2020-07-20 17:01:28,353 INFO 25763 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-20 17:01:28,353 INFO 25763 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-20 17:01:28,353 INFO 25763 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-20 17:01:28,353 INFO 25763 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-20 17:01:28,353 INFO 25763 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-20 17:01:28,353 INFO 25763 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-20 17:01:28,354 INFO 25763 [egg-watcher:agent] watcher start success
+2020-07-20 17:01:28,439 INFO 25763 [egg:core] dump config after ready, 7ms
+2020-07-20 17:04:13,297 INFO 25831 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-20 17:04:13,309 INFO 25831 [egg:core] dump config after load, 4ms
+2020-07-20 17:04:13,532 INFO 25831 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-20 17:04:13,532 INFO 25831 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-20 17:04:13,533 INFO 25831 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-20 17:04:13,533 INFO 25831 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-20 17:04:13,533 INFO 25831 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-20 17:04:13,533 INFO 25831 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-20 17:04:13,533 INFO 25831 [egg-watcher:agent] watcher start success
+2020-07-20 17:04:13,597 INFO 25831 [egg:core] dump config after ready, 5ms
+2020-07-20 17:12:23,776 INFO 25988 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-20 17:12:23,787 INFO 25988 [egg:core] dump config after load, 7ms
+2020-07-20 17:12:23,945 INFO 25988 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-20 17:12:23,945 INFO 25988 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-20 17:12:23,946 INFO 25988 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-20 17:12:23,946 INFO 25988 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-20 17:12:23,946 INFO 25988 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-20 17:12:23,946 INFO 25988 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-20 17:12:23,947 INFO 25988 [egg-watcher:agent] watcher start success
+2020-07-20 17:12:23,985 INFO 25988 [egg:core] dump config after ready, 10ms
+2020-07-20 17:38:18,127 INFO 26749 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-20 17:38:18,239 INFO 26749 [egg:core] dump config after load, 102ms
+2020-07-20 17:38:18,396 INFO 26749 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-20 17:38:18,397 INFO 26749 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-20 17:38:18,397 INFO 26749 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-20 17:38:18,397 INFO 26749 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-20 17:38:18,398 INFO 26749 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-20 17:38:18,398 INFO 26749 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-20 17:38:18,398 INFO 26749 [egg-watcher:agent] watcher start success
+2020-07-20 17:38:18,529 INFO 26749 [egg:core] dump config after ready, 53ms
+2020-07-20 17:47:16,298 INFO 26962 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-20 17:47:16,330 INFO 26962 [egg:core] dump config after load, 16ms
+2020-07-20 17:47:16,396 INFO 26962 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-20 17:47:16,396 INFO 26962 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-20 17:47:16,396 INFO 26962 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-20 17:47:16,396 INFO 26962 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-20 17:47:16,397 INFO 26962 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-20 17:47:16,397 INFO 26962 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-20 17:47:16,397 INFO 26962 [egg-watcher:agent] watcher start success
+2020-07-20 17:47:16,532 INFO 26962 [egg:core] dump config after ready, 86ms
+2020-07-20 18:05:02,837 INFO 27216 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-20 18:05:02,848 INFO 27216 [egg:core] dump config after load, 7ms
+2020-07-20 18:05:02,888 INFO 27216 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-20 18:05:02,888 INFO 27216 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-20 18:05:02,889 INFO 27216 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-20 18:05:02,889 INFO 27216 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-20 18:05:02,889 INFO 27216 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-20 18:05:02,889 INFO 27216 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-20 18:05:02,889 INFO 27216 [egg-watcher:agent] watcher start success
+2020-07-20 18:05:02,912 INFO 27216 [egg:core] dump config after ready, 4ms
+2020-07-20 19:04:37,643 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 2409971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-20 19:38:34,942 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 1997276ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-20 20:13:37,473 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 2082516ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-20 21:12:04,018 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 3446518ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-20 21:47:10,095 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 2066043ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-20 22:24:29,017 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 2198906ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-20 23:14:09,007 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 2959976ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-20 23:36:50,997 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 1321958ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 00:26:42,971 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 2951951ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 00:49:09,847 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 1306847ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 01:20:49,372 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 1858444ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 03:21:26,743 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 7217350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 05:22:24,529 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 7217051ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 08:02:10,605 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 2288966ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 09:30:04,685 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 5254063ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 10:04:35,182 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 73584ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 10:40:29,941 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 694454ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 10:49:41,767 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 431794ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 10:58:09,303 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 107435ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 12:01:32,641 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 123471ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 12:13:43,292 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 490591ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 12:23:17,628 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 554321ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 12:44:50,024 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 1108645ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 13:16:32,976 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 1762406ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 13:48:25,743 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 1872397ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 13:51:47,554 ERROR 27216 nodejs.ClusterClientNoResponseError: client no response in 141791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/lixin/project/monorepo/packages/egg-example/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 27216
+hostname: lixindeMacBook-Pro.local
+
+2020-07-21 15:10:53,270 INFO 32269 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:10:53,315 INFO 32269 [egg:core] dump config after load, 8ms
+2020-07-21 15:10:53,351 INFO 32269 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:10:53,351 INFO 32269 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:10:53,351 INFO 32269 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:10:53,351 INFO 32269 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:10:53,351 INFO 32269 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:10:53,351 INFO 32269 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:10:53,352 INFO 32269 [egg-watcher:agent] watcher start success
+2020-07-21 15:11:55,436 INFO 32353 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:11:55,448 INFO 32353 [egg:core] dump config after load, 4ms
+2020-07-21 15:11:55,489 INFO 32353 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:11:55,489 INFO 32353 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:11:55,490 INFO 32353 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:11:55,490 INFO 32353 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:11:55,490 INFO 32353 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:11:55,490 INFO 32353 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:11:55,490 INFO 32353 [egg-watcher:agent] watcher start success
+2020-07-21 15:11:55,729 INFO 32353 [egg:core] dump config after ready, 198ms
+2020-07-21 15:13:43,747 INFO 32491 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:13:43,764 INFO 32491 [egg:core] dump config after load, 5ms
+2020-07-21 15:13:43,805 INFO 32491 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:13:43,805 INFO 32491 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:13:43,805 INFO 32491 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:13:43,805 INFO 32491 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:13:43,806 INFO 32491 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:13:43,806 INFO 32491 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:13:43,806 INFO 32491 [egg-watcher:agent] watcher start success
+2020-07-21 15:13:43,846 INFO 32491 [egg:core] dump config after ready, 6ms
+2020-07-21 15:19:42,319 INFO 32597 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:19:42,400 INFO 32597 [egg:core] dump config after load, 52ms
+2020-07-21 15:19:42,584 INFO 32597 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:19:42,584 INFO 32597 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:19:42,586 INFO 32597 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:19:42,586 INFO 32597 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:19:42,587 INFO 32597 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:19:42,587 INFO 32597 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:19:42,588 INFO 32597 [egg-watcher:agent] watcher start success
+2020-07-21 15:19:42,833 INFO 32597 [egg:core] dump config after ready, 19ms
+2020-07-21 15:25:24,381 INFO 32727 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:25:24,397 INFO 32727 [egg:core] dump config after load, 5ms
+2020-07-21 15:25:24,430 INFO 32727 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:25:24,431 INFO 32727 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:25:24,431 INFO 32727 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:25:24,431 INFO 32727 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:25:24,431 INFO 32727 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:25:24,431 INFO 32727 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:25:24,432 INFO 32727 [egg-watcher:agent] watcher start success
+2020-07-21 15:25:24,453 INFO 32727 [egg:core] dump config after ready, 3ms
+2020-07-21 15:26:30,356 INFO 32781 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:26:30,392 INFO 32781 [egg:core] dump config after load, 13ms
+2020-07-21 15:26:30,447 INFO 32781 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:26:30,447 INFO 32781 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:26:30,448 INFO 32781 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:26:30,448 INFO 32781 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:26:30,448 INFO 32781 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:26:30,448 INFO 32781 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:26:30,448 INFO 32781 [egg-watcher:agent] watcher start success
+2020-07-21 15:26:30,631 INFO 32781 [egg:core] dump config after ready, 14ms
+2020-07-21 15:30:54,721 INFO 32889 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:30:54,759 INFO 32889 [egg:core] dump config after load, 30ms
+2020-07-21 15:30:54,821 INFO 32889 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:30:54,821 INFO 32889 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:30:54,822 INFO 32889 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:30:54,822 INFO 32889 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:30:54,822 INFO 32889 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:30:54,822 INFO 32889 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:30:54,823 INFO 32889 [egg-watcher:agent] watcher start success
+2020-07-21 15:30:54,996 INFO 32889 [egg:core] dump config after ready, 40ms
+2020-07-21 15:39:06,849 INFO 33244 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:39:06,864 INFO 33244 [egg:core] dump config after load, 4ms
+2020-07-21 15:39:06,908 INFO 33244 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:39:06,908 INFO 33244 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:39:06,908 INFO 33244 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:39:06,908 INFO 33244 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:39:06,908 INFO 33244 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:39:06,908 INFO 33244 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:39:06,909 INFO 33244 [egg-watcher:agent] watcher start success
+2020-07-21 15:39:06,942 INFO 33244 [egg:core] dump config after ready, 5ms
+2020-07-21 15:50:12,903 INFO 33414 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:50:12,937 INFO 33414 [egg:core] dump config after load, 20ms
+2020-07-21 15:50:13,290 INFO 33414 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:50:13,290 INFO 33414 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:50:13,291 INFO 33414 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:50:13,291 INFO 33414 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:50:13,291 INFO 33414 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:50:13,291 INFO 33414 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:50:13,291 INFO 33414 [egg-watcher:agent] watcher start success
+2020-07-21 15:50:13,328 INFO 33414 [egg:core] dump config after ready, 6ms
+2020-07-21 15:58:23,066 INFO 33589 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:58:23,097 INFO 33589 [egg:core] dump config after load, 19ms
+2020-07-21 15:58:23,216 INFO 33589 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:58:23,216 INFO 33589 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:58:23,217 INFO 33589 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:58:23,217 INFO 33589 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:58:23,217 INFO 33589 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:58:23,217 INFO 33589 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:58:23,218 INFO 33589 [egg-watcher:agent] watcher start success
+2020-07-21 15:58:23,264 INFO 33589 [egg:core] dump config after ready, 9ms
+2020-07-21 15:59:31,306 INFO 33659 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 15:59:31,328 INFO 33659 [egg:core] dump config after load, 8ms
+2020-07-21 15:59:31,371 INFO 33659 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 15:59:31,371 INFO 33659 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 15:59:31,373 INFO 33659 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 15:59:31,373 INFO 33659 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 15:59:31,373 INFO 33659 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 15:59:31,373 INFO 33659 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 15:59:31,377 INFO 33659 [egg-watcher:agent] watcher start success
+2020-07-21 16:01:18,802 INFO 33734 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:01:18,831 INFO 33734 [egg:core] dump config after load, 13ms
+2020-07-21 16:01:18,882 INFO 33734 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:01:18,882 INFO 33734 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:01:18,883 INFO 33734 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:01:18,883 INFO 33734 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:01:18,883 INFO 33734 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:01:18,883 INFO 33734 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:01:18,883 INFO 33734 [egg-watcher:agent] watcher start success
+2020-07-21 16:01:30,093 INFO 33758 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:01:30,110 INFO 33758 [egg:core] dump config after load, 5ms
+2020-07-21 16:01:30,153 INFO 33758 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:01:30,153 INFO 33758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:01:30,153 INFO 33758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:01:30,153 INFO 33758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:01:30,153 INFO 33758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:01:30,153 INFO 33758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:01:30,154 INFO 33758 [egg-watcher:agent] watcher start success
+2020-07-21 16:04:50,272 INFO 33822 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:04:50,289 INFO 33822 [egg:core] dump config after load, 9ms
+2020-07-21 16:04:50,669 INFO 33822 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:04:50,670 INFO 33822 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:04:50,670 INFO 33822 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:04:50,670 INFO 33822 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:04:50,671 INFO 33822 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:04:50,671 INFO 33822 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:04:50,671 INFO 33822 [egg-watcher:agent] watcher start success
+2020-07-21 16:04:50,719 INFO 33822 [egg:core] dump config after ready, 5ms
+2020-07-21 16:12:12,328 INFO 34223 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:12:12,349 INFO 34223 [egg:core] dump config after load, 7ms
+2020-07-21 16:12:12,419 INFO 34223 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:12:12,419 INFO 34223 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:12:12,420 INFO 34223 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:12:12,420 INFO 34223 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:12:12,420 INFO 34223 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:12:12,421 INFO 34223 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:12:12,421 INFO 34223 [egg-watcher:agent] watcher start success
+2020-07-21 16:12:12,491 INFO 34223 [egg:core] dump config after ready, 8ms
+2020-07-21 16:14:26,731 INFO 34265 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:14:26,823 INFO 34265 [egg:core] dump config after load, 68ms
+2020-07-21 16:14:26,965 INFO 34265 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:14:26,966 INFO 34265 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:14:26,970 INFO 34265 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:14:26,970 INFO 34265 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:14:26,970 INFO 34265 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:14:26,970 INFO 34265 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:14:26,971 INFO 34265 [egg-watcher:agent] watcher start success
+2020-07-21 16:14:27,048 INFO 34265 [egg:core] dump config after ready, 7ms
+2020-07-21 16:22:11,403 INFO 34457 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:22:11,419 INFO 34457 [egg:core] dump config after load, 5ms
+2020-07-21 16:22:11,469 INFO 34457 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:22:11,469 INFO 34457 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:22:11,470 INFO 34457 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:22:11,470 INFO 34457 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:22:11,470 INFO 34457 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:22:11,470 INFO 34457 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:22:11,470 INFO 34457 [egg-watcher:agent] watcher start success
+2020-07-21 16:22:48,831 INFO 34483 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:22:48,853 INFO 34483 [egg:core] dump config after load, 8ms
+2020-07-21 16:22:48,921 INFO 34483 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:22:48,921 INFO 34483 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:22:48,922 INFO 34483 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:22:48,922 INFO 34483 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:22:48,922 INFO 34483 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:22:48,922 INFO 34483 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:22:48,922 INFO 34483 [egg-watcher:agent] watcher start success
+2020-07-21 16:22:49,008 INFO 34483 [egg:core] dump config after ready, 5ms
+2020-07-21 16:27:06,757 INFO 34614 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:27:06,778 INFO 34614 [egg:core] dump config after load, 8ms
+2020-07-21 16:27:06,851 INFO 34614 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:27:06,852 INFO 34614 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:27:06,852 INFO 34614 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:27:06,853 INFO 34614 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:27:06,853 INFO 34614 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:27:06,853 INFO 34614 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:27:06,853 INFO 34614 [egg-watcher:agent] watcher start success
+2020-07-21 16:27:06,938 INFO 34614 [egg:core] dump config after ready, 38ms
+2020-07-21 16:33:46,182 INFO 34758 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:33:46,233 INFO 34758 [egg:core] dump config after load, 23ms
+2020-07-21 16:33:46,549 INFO 34758 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:33:46,549 INFO 34758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:33:46,551 INFO 34758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:33:46,551 INFO 34758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:33:46,552 INFO 34758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:33:46,552 INFO 34758 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:33:46,552 INFO 34758 [egg-watcher:agent] watcher start success
+2020-07-21 16:33:46,759 INFO 34758 [egg:core] dump config after ready, 8ms
+2020-07-21 16:38:59,503 INFO 34826 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:38:59,561 INFO 34826 [egg:core] dump config after load, 18ms
+2020-07-21 16:38:59,984 INFO 34826 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:38:59,985 INFO 34826 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:38:59,985 INFO 34826 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:38:59,986 INFO 34826 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:38:59,986 INFO 34826 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:38:59,986 INFO 34826 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:38:59,986 INFO 34826 [egg-watcher:agent] watcher start success
+2020-07-21 16:39:00,088 INFO 34826 [egg:core] dump config after ready, 50ms
+2020-07-21 16:57:15,174 INFO 35807 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 16:57:15,205 INFO 35807 [egg:core] dump config after load, 15ms
+2020-07-21 16:57:15,257 INFO 35807 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 16:57:15,257 INFO 35807 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 16:57:15,258 INFO 35807 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 16:57:15,258 INFO 35807 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 16:57:15,258 INFO 35807 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 16:57:15,258 INFO 35807 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 16:57:15,258 INFO 35807 [egg-watcher:agent] watcher start success
+2020-07-21 16:57:15,316 INFO 35807 [egg:core] dump config after ready, 10ms
+2020-07-21 17:25:34,394 INFO 36058 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 17:25:34,421 INFO 36058 [egg:core] dump config after load, 17ms
+2020-07-21 17:25:34,489 INFO 36058 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 17:25:34,489 INFO 36058 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 17:25:34,489 INFO 36058 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 17:25:34,489 INFO 36058 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 17:25:34,490 INFO 36058 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 17:25:34,490 INFO 36058 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 17:25:34,490 INFO 36058 [egg-watcher:agent] watcher start success
+2020-07-21 17:25:34,525 INFO 36058 [egg:core] dump config after ready, 7ms
+2020-07-21 17:26:40,002 INFO 36096 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 17:26:40,017 INFO 36096 [egg:core] dump config after load, 5ms
+2020-07-21 17:26:40,087 INFO 36096 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 17:26:40,087 INFO 36096 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 17:26:40,088 INFO 36096 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 17:26:40,088 INFO 36096 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 17:26:40,088 INFO 36096 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 17:26:40,088 INFO 36096 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 17:26:40,088 INFO 36096 [egg-watcher:agent] watcher start success
+2020-07-21 17:26:40,120 INFO 36096 [egg:core] dump config after ready, 6ms
+2020-07-21 17:31:39,182 INFO 36178 [egg:logger] init all loggers with options: {"dir":"/Users/lixin/project/monorepo/packages/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-07-21 17:31:39,202 INFO 36178 [egg:core] dump config after load, 13ms
+2020-07-21 17:31:39,263 INFO 36178 [egg-watcher] Start watching: ["/Users/lixin/project/monorepo/packages/egg-example/app","/Users/lixin/project/monorepo/packages/egg-example/config","/Users/lixin/project/monorepo/packages/egg-example/mocks","/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy","/Users/lixin/project/monorepo/packages/egg-example/app.js"]
+2020-07-21 17:31:39,263 INFO 36178 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app"
+2020-07-21 17:31:39,263 INFO 36178 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/config"
+2020-07-21 17:31:39,263 INFO 36178 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks"
+2020-07-21 17:31:39,263 INFO 36178 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/mocks_proxy"
+2020-07-21 17:31:39,263 INFO 36178 [egg-watcher] Start watching: "/Users/lixin/project/monorepo/packages/egg-example/app.js"
+2020-07-21 17:31:39,265 INFO 36178 [egg-watcher:agent] watcher start success
+2020-07-21 17:31:39,302 INFO 36178 [egg:core] dump config after ready, 6ms

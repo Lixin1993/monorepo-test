@@ -10,3 +10,162 @@
 2020-07-08 16:42:59,482 INFO 76325 [Timer] /Users/lixin/project/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42420521ms at 2020-07-09 04:30:00.003
 2020-07-08 16:42:59,483 INFO 76325 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26220518ms at 2020-07-09 00:00:00.001
 2020-07-08 16:42:59,483 INFO 76325 [Timer] /Users/lixin/project/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26221517ms at 2020-07-09 00:00:01.000
+2020-07-20 16:51:48,761 INFO 25575 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-20 16:51:48,761 INFO 25575 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-20 16:51:48,761 INFO 25575 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-20 16:51:49,024 INFO 25574 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41890979ms at 2020-07-21 04:30:00.003
+2020-07-20 16:51:49,024 INFO 25574 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25690976ms at 2020-07-21 00:00:00.000
+2020-07-20 16:51:49,024 INFO 25574 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25691976ms at 2020-07-21 00:00:01.000
+2020-07-20 17:01:29,611 INFO 25763 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41310392ms at 2020-07-21 04:30:00.003
+2020-07-20 17:01:29,611 INFO 25763 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25110389ms at 2020-07-21 00:00:00.000
+2020-07-20 17:01:29,612 INFO 25763 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25111389ms at 2020-07-21 00:00:01.001
+2020-07-20 17:01:29,376 INFO 25766 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-20 17:01:29,376 INFO 25766 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-20 17:01:29,376 INFO 25766 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-20 17:04:14,293 INFO 25834 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-20 17:04:14,293 INFO 25834 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-20 17:04:14,293 INFO 25834 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-20 17:04:14,469 INFO 25831 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41145534ms at 2020-07-21 04:30:00.003
+2020-07-20 17:04:14,469 INFO 25831 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24945531ms at 2020-07-21 00:00:00.000
+2020-07-20 17:04:14,470 INFO 25831 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24946531ms at 2020-07-21 00:00:01.001
+2020-07-20 17:12:24,777 INFO 25990 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-20 17:12:24,777 INFO 25990 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-20 17:12:24,777 INFO 25990 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-20 17:12:24,944 INFO 25988 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 40655059ms at 2020-07-21 04:30:00.003
+2020-07-20 17:12:24,944 INFO 25988 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24455056ms at 2020-07-21 00:00:00.000
+2020-07-20 17:12:24,945 INFO 25988 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24456056ms at 2020-07-21 00:00:01.001
+2020-07-20 17:38:19,508 INFO 26749 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39100495ms at 2020-07-21 04:30:00.003
+2020-07-20 17:38:19,509 INFO 26749 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22900492ms at 2020-07-21 00:00:00.001
+2020-07-20 17:38:19,509 INFO 26749 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22901491ms at 2020-07-21 00:00:01.000
+2020-07-20 17:38:19,294 INFO 26752 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-20 17:38:19,294 INFO 26752 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-20 17:38:19,294 INFO 26752 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-20 17:47:17,731 INFO 26962 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38562271ms at 2020-07-21 04:30:00.002
+2020-07-20 17:47:17,731 INFO 26962 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22362269ms at 2020-07-21 00:00:00.000
+2020-07-20 17:47:17,731 INFO 26962 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22363269ms at 2020-07-21 00:00:01.000
+2020-07-20 17:47:17,539 INFO 26963 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-20 17:47:17,539 INFO 26963 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-20 17:47:17,539 INFO 26963 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-20 18:05:04,555 INFO 27216 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 37495447ms at 2020-07-21 04:30:00.002
+2020-07-20 18:05:04,555 INFO 27216 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 21295445ms at 2020-07-21 00:00:00.000
+2020-07-20 18:05:04,555 INFO 27216 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 21296445ms at 2020-07-21 00:00:01.000
+2020-07-20 18:05:04,318 INFO 27217 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-20 18:05:04,318 INFO 27217 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-20 18:05:04,318 INFO 27217 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:11:56,891 INFO 32353 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47883111ms at 2020-07-22 04:30:00.002
+2020-07-21 15:11:56,892 INFO 32353 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31683108ms at 2020-07-22 00:00:00.000
+2020-07-21 15:11:56,892 INFO 32353 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31684108ms at 2020-07-22 00:00:01.000
+2020-07-21 15:11:56,679 INFO 32355 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:11:56,679 INFO 32355 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:11:56,679 INFO 32355 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:13:45,189 INFO 32491 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47774814ms at 2020-07-22 04:30:00.003
+2020-07-21 15:13:45,189 INFO 32491 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31574811ms at 2020-07-22 00:00:00.000
+2020-07-21 15:13:45,189 INFO 32491 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31575811ms at 2020-07-22 00:00:01.000
+2020-07-21 15:13:44,929 INFO 32495 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:13:44,929 INFO 32495 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:13:44,929 INFO 32495 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:19:43,864 INFO 32597 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47416140ms at 2020-07-22 04:30:00.003
+2020-07-21 15:19:43,864 INFO 32597 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 31216136ms at 2020-07-22 00:00:00.000
+2020-07-21 15:19:43,864 INFO 32597 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 31217136ms at 2020-07-22 00:00:01.000
+2020-07-21 15:19:43,701 INFO 32615 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:19:43,701 INFO 32615 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:19:43,701 INFO 32615 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:25:25,327 INFO 32727 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47074676ms at 2020-07-22 04:30:00.003
+2020-07-21 15:25:25,327 INFO 32727 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30874673ms at 2020-07-22 00:00:00.000
+2020-07-21 15:25:25,328 INFO 32727 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30875673ms at 2020-07-22 00:00:01.001
+2020-07-21 15:25:25,168 INFO 32731 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:25:25,168 INFO 32731 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:25:25,168 INFO 32731 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:26:31,312 INFO 32784 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:26:31,312 INFO 32784 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:26:31,312 INFO 32784 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:26:31,476 INFO 32781 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 47008526ms at 2020-07-22 04:30:00.002
+2020-07-21 15:26:31,476 INFO 32781 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30808524ms at 2020-07-22 00:00:00.000
+2020-07-21 15:26:31,476 INFO 32781 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30809524ms at 2020-07-22 00:00:01.000
+2020-07-21 15:30:55,604 INFO 32905 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:30:55,604 INFO 32905 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:30:55,604 INFO 32905 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:30:55,769 INFO 32889 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46744234ms at 2020-07-22 04:30:00.003
+2020-07-21 15:30:55,770 INFO 32889 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30544230ms at 2020-07-22 00:00:00.000
+2020-07-21 15:30:55,770 INFO 32889 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30545230ms at 2020-07-22 00:00:01.000
+2020-07-21 15:39:07,964 INFO 33245 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:39:07,965 INFO 33245 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:39:07,965 INFO 33245 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:39:08,235 INFO 33244 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 46251768ms at 2020-07-22 04:30:00.003
+2020-07-21 15:39:08,235 INFO 33244 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 30051765ms at 2020-07-22 00:00:00.000
+2020-07-21 15:39:08,236 INFO 33244 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 30052765ms at 2020-07-22 00:00:01.001
+2020-07-21 15:50:14,744 INFO 33414 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45585260ms at 2020-07-22 04:30:00.004
+2020-07-21 15:50:14,745 INFO 33414 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 29385255ms at 2020-07-22 00:00:00.000
+2020-07-21 15:50:14,746 INFO 33414 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 29386255ms at 2020-07-22 00:00:01.001
+2020-07-21 15:50:14,454 INFO 33418 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:50:14,454 INFO 33418 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:50:14,455 INFO 33418 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:58:26,832 INFO 33591 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 15:58:26,832 INFO 33591 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 15:58:26,832 INFO 33591 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 15:58:27,494 INFO 33589 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 45092513ms at 2020-07-22 04:30:00.007
+2020-07-21 15:58:27,495 INFO 33589 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28892506ms at 2020-07-22 00:00:00.001
+2020-07-21 15:58:27,496 INFO 33589 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28893505ms at 2020-07-22 00:00:01.001
+2020-07-21 16:04:52,946 INFO 33822 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44707058ms at 2020-07-22 04:30:00.004
+2020-07-21 16:04:52,947 INFO 33822 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 28507054ms at 2020-07-22 00:00:00.001
+2020-07-21 16:04:52,947 INFO 33822 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 28508053ms at 2020-07-22 00:00:01.000
+2020-07-21 16:04:52,383 INFO 33826 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:04:52,383 INFO 33826 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:04:52,383 INFO 33826 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:12:13,620 INFO 34224 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:12:13,620 INFO 34224 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:12:13,620 INFO 34224 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:14:29,144 INFO 34267 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:14:29,144 INFO 34267 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:14:29,144 INFO 34267 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:14:29,924 INFO 34265 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 44130080ms at 2020-07-22 04:30:00.004
+2020-07-21 16:14:29,925 INFO 34265 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27930075ms at 2020-07-22 00:00:00.000
+2020-07-21 16:14:29,926 INFO 34265 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27931075ms at 2020-07-22 00:00:01.001
+2020-07-21 16:22:50,602 INFO 34483 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43629403ms at 2020-07-22 04:30:00.005
+2020-07-21 16:22:50,603 INFO 34483 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27429398ms at 2020-07-22 00:00:00.001
+2020-07-21 16:22:50,603 INFO 34483 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27430397ms at 2020-07-22 00:00:01.000
+2020-07-21 16:22:50,319 INFO 34485 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:22:50,319 INFO 34485 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:22:50,319 INFO 34485 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:27:08,855 INFO 34615 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:27:08,855 INFO 34615 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:27:08,855 INFO 34615 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:27:09,324 INFO 34614 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 43370681ms at 2020-07-22 04:30:00.005
+2020-07-21 16:27:09,324 INFO 34614 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27170676ms at 2020-07-22 00:00:00.000
+2020-07-21 16:27:09,325 INFO 34614 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27171676ms at 2020-07-22 00:00:01.001
+2020-07-21 16:33:48,190 INFO 34762 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:33:48,190 INFO 34762 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:33:48,190 INFO 34762 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:33:48,561 INFO 34758 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42971444ms at 2020-07-22 04:30:00.005
+2020-07-21 16:33:48,562 INFO 34758 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26771438ms at 2020-07-22 00:00:00.000
+2020-07-21 16:33:48,563 INFO 34758 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26772438ms at 2020-07-22 00:00:01.001
+2020-07-21 16:39:01,401 INFO 34830 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:39:01,402 INFO 34830 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:39:01,402 INFO 34830 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:39:01,735 INFO 34826 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 42658269ms at 2020-07-22 04:30:00.004
+2020-07-21 16:39:01,736 INFO 34826 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 26458265ms at 2020-07-22 00:00:00.001
+2020-07-21 16:39:01,736 INFO 34826 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 26459264ms at 2020-07-22 00:00:01.000
+2020-07-21 16:57:16,945 INFO 35808 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 16:57:16,945 INFO 35808 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 16:57:16,945 INFO 35808 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 16:57:17,219 INFO 35807 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41562785ms at 2020-07-22 04:30:00.004
+2020-07-21 16:57:17,220 INFO 35807 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 25362781ms at 2020-07-22 00:00:00.001
+2020-07-21 16:57:17,220 INFO 35807 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 25363780ms at 2020-07-22 00:00:01.000
+2020-07-21 17:25:36,082 INFO 36058 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39863920ms at 2020-07-22 04:30:00.002
+2020-07-21 17:25:36,083 INFO 36058 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23663918ms at 2020-07-22 00:00:00.001
+2020-07-21 17:25:36,083 INFO 36058 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23664917ms at 2020-07-22 00:00:01.000
+2020-07-21 17:25:35,802 INFO 36059 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 17:25:35,802 INFO 36059 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 17:25:35,802 INFO 36059 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 17:26:41,365 INFO 36096 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39798638ms at 2020-07-22 04:30:00.003
+2020-07-21 17:26:41,366 INFO 36096 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23598635ms at 2020-07-22 00:00:00.001
+2020-07-21 17:26:41,366 INFO 36096 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23599634ms at 2020-07-22 00:00:01.000
+2020-07-21 17:26:41,127 INFO 36099 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 17:26:41,127 INFO 36099 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 17:26:41,127 INFO 36099 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-07-21 17:31:40,992 INFO 36178 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 39499011ms at 2020-07-22 04:30:00.003
+2020-07-21 17:31:40,993 INFO 36178 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 23299007ms at 2020-07-22 00:00:00.000
+2020-07-21 17:31:40,993 INFO 36178 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 23300007ms at 2020-07-22 00:00:01.000
+2020-07-21 17:31:40,664 INFO 36179 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-07-21 17:31:40,665 INFO 36179 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-07-21 17:31:40,665 INFO 36179 [egg-schedule]: register schedule /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
