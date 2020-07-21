@@ -18,16 +18,35 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: '/node_modules/',
+        include: '/src/',
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env']
+            plugins: [["import", { "libraryName": "antd", "style": "css" }]]
           }
-        }
+        },
       },
-      { test: /\.css?$/, use: ['style-loader', 'css-loader'] },
-      { test: /\.tsx?$/, use: ['ts-loader'] }
+      {
+        test: /\.css?$/,
+        // exclude: path.resolve(__dirname, 'node_modules'),
+        use: ['style-loader', 'css-loader'],
+      },
+      // {
+      //   test: /\.less$/,
+      //   use: [{
+      //     loader: 'style-loader'
+      //   }, {
+      //     loader: 'css-loader',
+      //     options: {
+      //       modules: true,
+      //     }
+      //   }, {
+      //     loader: 'less-loader'
+      //   }],
+      //   include: path.resolve(__dirname, 'node_modules'),
+      // },
+      { test: /\.(tsx|ts)?$/, use: ['ts-loader'] }
     ]
   },
   plugins: [
@@ -41,9 +60,5 @@ module.exports = {
   devServer: {
     port: 9001,
     open: true,
-  },
-  externals: {
-    "react": "React",
-    "react-dom": "ReactDOM"
   },
 };
