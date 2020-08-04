@@ -5,8 +5,6 @@ import ChartModal from './chart'
 import { getRenovationBaseList, ITableSetting, deleteRenovationBaseItem, IItemDataSource } from '../../../api/renovation'
 import { IResponse } from '../../../api/initHttp'
 
-import 'antd/dist/antd.css'
-
 const { confirm } = Modal
 
 export interface IDataSource {
@@ -54,6 +52,11 @@ const RenovationBase = () => {
         setDataSource(createDataSource(res.data.list))
       }
     })
+  }
+
+  const createRowData = () => {
+    setItemKey('')
+    setVisibleTableDataModal(true)
   }
 
   const itemColumns = [
@@ -124,7 +127,7 @@ const RenovationBase = () => {
         setVisible={setVisibleChartModal}
       />
       <div style={{ marginBottom: '8px' }}>
-        <Button onClick={() => setVisibleTableDataModal(true)} style={{ marginRight: '12px' }}><Icon type={'plus'} />新增项目</Button>
+        <Button onClick={createRowData} style={{ marginRight: '12px' }}><Icon type={'plus'} />新增项目</Button>
         <Button onClick={() => {
           setChartData(createDataSource(itemDataSource))
           setVisibleChartModal(true)

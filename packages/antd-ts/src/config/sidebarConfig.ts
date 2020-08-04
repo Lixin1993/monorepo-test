@@ -19,25 +19,8 @@ export interface ISideMenu {
 export const sideMenu = [{
   title: '装修',
   icon: 'pushpin',
-  children: [{
-    path: '/renovation/base',
-    title: '硬装',
-    component: RenovationBase,
-  }, {
-    path: '/renovation/soft',
-    title: '软装',
-    component: RenovationSoft,
-  }],
-}, {
-  title: 'Team',
-  icon: 'team',
-  children: [{
-    path: '/team/team_1',
-    title: 'Team1',
-    component: Team1,
-  }, {
-    path: '/team/team_2',
-    title: 'Team2',
-    component: Team2,
-  }],
+  children: [
+    { path: '/renovation/base', title: '硬装', component: RenovationBase },
+    { path: '/renovation/soft', title: '软装', component: RenovationSoft }
+  ],
 }]

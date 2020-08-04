@@ -96,6 +96,7 @@
         "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-view-nunjucks/config/locales",
         "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-cors/config/locales",
         "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-mysql/config/locales",
+        "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-jwt/config/locales",
         "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/locales",
         "/Users/lixin/project/monorepo/packages/egg-example/config/locales"
       ],
@@ -201,6 +202,10 @@
         }
       }
     },
+    "jwt": {
+      "secret": "<String len: 6>",
+      "enable": false
+    },
     "env": "local",
     "name": "egg-example",
     "keys": "<String len: 5>",
@@ -225,6 +230,7 @@
       "dependencies": {
         "egg": "^2.26.0",
         "egg-cors": "^2.2.3",
+        "egg-jwt": "^3.1.7",
         "egg-mysql": "^3.0.0",
         "egg-security": "^2.7.1",
         "egg-view-nunjucks": "^2.2.0",
@@ -358,7 +364,9 @@
       ]
     },
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
+    "appMiddlewares": [
+      "jwt"
+    ],
     "appMiddleware": "~config~appMiddlewares",
     "multipartParseOptions": {
       "autoFields": false,
@@ -555,6 +563,19 @@
       "from": "/Users/lixin/project/monorepo/packages/egg-example/config/plugin.js",
       "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-mysql",
       "version": "3.0.0"
+    },
+    "jwt": {
+      "enable": true,
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
+      ],
+      "env": [],
+      "from": "/Users/lixin/project/monorepo/packages/egg-example/config/plugin.js",
+      "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-jwt",
+      "version": "3.1.7"
     }
   }
 }

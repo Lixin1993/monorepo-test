@@ -4,11 +4,6 @@ import echarts from 'echarts/lib/echarts'
 import { IDataSource } from './index'
 import { IItemDataSource } from '../../../api/renovation'
 
-import 'echarts/lib/chart/bar'
-import 'echarts/lib/chart/pie'
-import 'echarts/lib/component/tooltip'
-import 'echarts/lib/component/toolbox'
-
 interface IProps {
   data: Array<IDataSource | IItemDataSource>,
   visible: boolean,

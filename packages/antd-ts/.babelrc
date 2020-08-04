@@ -1,8 +1,7 @@
 {
-  "presets": ["es2015", "react", "stage-0"],
+  "presets": ["@babel/preset-env", "@babel/preset-react", "@babel/preset-typescript"],
   "plugins": [
-      "add-module-exports",
-      "transform-runtime",
-      [ "import", { "style": "css", "libraryName": "antd" } ]
+    "@babel/plugin-transform-runtime",
+    ["import", { "style": "css", "libraryName": "antd" }]
   ]
 }

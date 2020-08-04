@@ -31,11 +31,11 @@ const typeMap: ITypeMap = {
 function CreateModal(props: IProps): JSX.Element {
   const { form, itemKey, data, setVisible, getData } = props
   const { getFieldDecorator, validateFields } = form
-  const rowData: IItemDataSource | undefined = data.find(item => item.key === itemKey)
+  const rowData: IItemDataSource | undefined = itemKey ? data.find(item => item.key === itemKey) : undefined
   const onSubmit = () => {
     validateFields((error, values) => {
       if (!error) {
-        const newRowData = { id: itemKey, typeName: typeMap[values.type], ...values }
+        const newRowData = { key: itemKey, typeName: typeMap[values.type], ...values }
         if (itemKey) {
           updateRenovationBaseItem(newRowData).then(res => {
             if (res.data.result) {

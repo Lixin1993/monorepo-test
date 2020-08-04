@@ -7,6 +7,8 @@ exports.view = {
   },
 }
 
+exports.jwt = { secret: '123456' }
+
 exports.news = {
   key: '30b23529aee026f95780daf1dec571dc',
   serverUrl: 'http://op.juhe.cn/onebox/basketball/nba',

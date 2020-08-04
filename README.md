@@ -1,5 +1,3 @@
-
-
 ## Project setup
 ```
 lerna bootstrap

@@ -33,6 +33,5 @@ export function deleteRenovationBaseItem(payload: string) {
 }
 
 export function updateRenovationBaseItem(payload: IItemDataSource) {
-  console.log(payload)
   return axios.put(`/renovation/base/item/${payload.key}`, payload).then(res => res.data)
 }
