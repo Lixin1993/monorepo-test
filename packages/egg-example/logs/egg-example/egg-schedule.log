@@ -1,3 +1,0 @@
-2020-08-04 04:30:00,731 INFO 46294 [Timer] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86399272ms at 2020-08-05 04:30:00.003
-2020-08-04 04:30:00,728 INFO 46295 [Job#15964866007277420284887996531] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
-2020-08-04 04:30:00,738 INFO 46295 [Job#15964866007277420284887996531] /Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 10ms

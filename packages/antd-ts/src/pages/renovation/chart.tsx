@@ -2,7 +2,10 @@ import React, { useRef, useEffect } from 'react'
 import { Modal } from 'antd'
 import echarts from 'echarts/lib/echarts'
 import { IDataSource } from './index'
-import { IItemDataSource } from '../../../api/renovation'
+import { IItemDataSource } from '../../api/renovation'
+
+import 'echarts/lib/chart/pie'
+import 'echarts/lib/component/tooltip'
 
 interface IProps {
   data: Array<IDataSource | IItemDataSource>,

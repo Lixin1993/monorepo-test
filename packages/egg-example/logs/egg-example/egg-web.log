@@ -1,3 +1,1 @@
-2020-08-04 00:00:01,484 INFO 46295 [egg-logrotator] app logger reload: got log-reload message
-2020-08-04 04:30:00,734 INFO 46295 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/kc/vwd0jy1d4nn4_zn1v4d9n76r0000gn/T/egg-multipart-tmp/egg-example"
-2020-08-04 04:30:00,738 INFO 46295 [-/127.0.0.1/-/10ms SCHEDULE /__schedule?path=/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-08-17 13:41:07,803 INFO 978 [egg-logrotator] app logger reload: got log-reload message

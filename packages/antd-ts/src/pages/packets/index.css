@@ -1,0 +1,15 @@
+.container {
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ant-form-item-children>[id],.ant-input-number {
+  width: 100% !important;
+}
+
+
+.listBtn {
+  margin-left: 20px;
+}

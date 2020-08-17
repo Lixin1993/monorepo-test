@@ -9,25 +9,10 @@ exports.view = {
 
 exports.jwt = { secret: '123456' }
 
-exports.news = {
-  key: '30b23529aee026f95780daf1dec571dc',
-  serverUrl: 'http://op.juhe.cn/onebox/basketball/nba',
-}
-
-exports.weather = {
-  key: 'dab0b0b77ce4941a7df2bae6c3360ab0',
-  serverUrl: 'http://apis.juhe.cn/simpleWeather/query',
-}
-
 exports.cors = {
   origin: '*',
-  allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
+  allowMethods: 'GET,HEAD,PUT,POST,DELETE',
   credentials: true,
-}
-
-exports.todoList = {
-  todo: ['李昕', '冯琦', '李乔熙'],
-  done: ['lixin', 'fengqi', 'liqiaoxi'],
 }
 
 exports.mysql = {

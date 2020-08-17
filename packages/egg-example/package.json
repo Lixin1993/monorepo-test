@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "egg-bin dev"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +15,7 @@
     "egg-mysql": "^3.0.0",
     "egg-security": "^2.7.1",
     "egg-view-nunjucks": "^2.2.0",
-    "node-uuid": "^1.4.8"
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "egg-bin": "^4.14.1"

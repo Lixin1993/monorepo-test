@@ -1,26 +1,31 @@
-import RenovationBase from '../pages/renovation/RenovationBase/index'
-import RenovationSoft from '../pages/renovation/RenovationSoft'
-import Team1 from '../pages/team/Team_1'
-import Team2 from '../pages/team/Team_2'
+import RenovationBase from '../pages/renovation'
+import Packets from '../pages/packets'
 
 interface ISideMenuChildren {
   path: string,
-  icon: string,
+  icon?: string,
   title: string,
-  component: () => Element,
+  component: () => JSX.Element,
 }
 
 export interface ISideMenu {
   title: string,
   icon: string,
-  children: ISideMenuChildren,
+  children?: ISideMenuChildren[],
 }
 
-export const sideMenu = [{
+export const sideMenu: ISideMenu[] = [
+{
   title: '装修',
   icon: 'pushpin',
   children: [
     { path: '/renovation/base', title: '硬装', component: RenovationBase },
-    { path: '/renovation/soft', title: '软装', component: RenovationSoft }
+  ],
+},
+{
+  title: '记账',
+  icon: 'money-collect',
+  children: [
+    { path: '/collect/packets', title: '压岁钱', component: Packets },
   ],
 }]

@@ -13,22 +13,10 @@
     "secret": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
     "enable": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-jwt/config/config.default.js"
   },
-  "news": {
-    "key": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
-    "serverUrl": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js"
-  },
-  "weather": {
-    "key": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
-    "serverUrl": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js"
-  },
   "cors": {
     "origin": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
     "allowMethods": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
     "credentials": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js"
-  },
-  "todoList": {
-    "todo": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
-    "done": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js"
   },
   "mysql": {
     "clients": {
@@ -195,8 +183,7 @@
     "description": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
     "main": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
     "scripts": {
-      "dev": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
-      "test": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js"
+      "dev": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js"
     },
     "author": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
     "license": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
@@ -207,7 +194,7 @@
       "egg-mysql": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
       "egg-security": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js",
-      "node-uuid": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js"
+      "uuid": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "egg-bin": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/config.default.js"

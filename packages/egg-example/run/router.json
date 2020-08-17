@@ -2,70 +2,6 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/",
-    "regexp": "/^(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/teams",
-    "regexp": "/^\\/teams(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/weather",
-    "regexp": "/^\\/weather(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/todo/list",
-    "regexp": "/^\\/todo\\/list(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/todo/list",
-    "regexp": "/^\\/todo\\/list(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
       "POST"
     ],
     "paramNames": [],
@@ -85,7 +21,6 @@
     "path": "/renovation/base/list",
     "regexp": "/^\\/renovation\\/base\\/list(?:\\/(?=$))?$/",
     "stack": [
-      "jwtErr",
       "wrappedController"
     ]
   },
@@ -98,7 +33,6 @@
     "path": "/renovation/base/item",
     "regexp": "/^\\/renovation\\/base\\/item(?:\\/(?=$))?$/",
     "stack": [
-      "jwtErr",
       "wrappedController"
     ]
   },
@@ -122,7 +56,6 @@
     "path": "/renovation/base/item/:key",
     "regexp": "/^\\/renovation\\/base\\/item\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
-      "jwtErr",
       "wrappedController"
     ]
   },
@@ -146,7 +79,6 @@
     "path": "/renovation/base/item/:key",
     "regexp": "/^\\/renovation\\/base\\/item\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
-      "jwtErr",
       "wrappedController"
     ]
   }

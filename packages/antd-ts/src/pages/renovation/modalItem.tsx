@@ -1,13 +1,13 @@
 import React from 'react'
 import { Modal, Form, Input, Select, message } from 'antd'
 import { FormComponentProps } from 'antd/es/form'
-import { addRenovationBaseItem, updateRenovationBaseItem, IItemDataSource } from '../../../api/renovation'
+import { addRenovationBaseItem, updateRenovationBaseItem, IItemDataSource } from '../../api/renovation'
 
 const { Option } = Select
 
 interface IProps extends FormComponentProps {
   visible: boolean,
-  itemKey: string | undefined,
+  id: string | undefined,
   data: Array<IItemDataSource>,
   getData: () => void,
   setVisible: (param: boolean) => void
@@ -29,15 +29,15 @@ const typeMap: ITypeMap = {
 }
 
 function CreateModal(props: IProps): JSX.Element {
-  const { form, itemKey, data, setVisible, getData } = props
+  const { form, id, data, setVisible, getData } = props
   const { getFieldDecorator, validateFields } = form
-  const rowData: IItemDataSource | undefined = itemKey ? data.find(item => item.key === itemKey) : undefined
+  const rowData: IItemDataSource | undefined = id ? data.find(item => item.id === id) : undefined
   const onSubmit = () => {
     validateFields((error, values) => {
       if (!error) {
-        const newRowData = { key: itemKey, typeName: typeMap[values.type], ...values }
-        if (itemKey) {
-          updateRenovationBaseItem(newRowData).then(res => {
+        const newRowData = { typeName: typeMap[values.type], ...values }
+        if (id) {
+          updateRenovationBaseItem({ id, ...newRowData }).then(res => {
             if (res.data.result) {
               getData()
               message.success('修改成功')
@@ -64,7 +64,7 @@ function CreateModal(props: IProps): JSX.Element {
   return (
     <Modal
       width={'40vw'}
-      title={itemKey ? `${rowData && rowData.name}` : '新增项目'}
+      title={id ? `${rowData && rowData.name}` : '新增项目'}
       destroyOnClose
       visible={props.visible}
       onOk={onSubmit}

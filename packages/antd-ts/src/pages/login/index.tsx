@@ -14,7 +14,7 @@ const Login = (props: any) => {
           if (res.data.result) {
             message.success('登录成功！')
             cookies.save('token', res.data.token)
-            window.location.href = '/#/renovation/base'
+            window.location.href = '/renovation/base'
           }
         })
       }
@@ -49,7 +49,7 @@ const Login = (props: any) => {
             valuePropName: 'checked',
             initialValue: true,
           })(<Checkbox>记住密码</Checkbox>)}
-          <a className="login-form-forgot" href="">
+          <a className="login-form-forgot" href="javascript">
             忘记密码？
           </a>
           <Button type="primary" onClick={handleSubmit} className="login-form-button">

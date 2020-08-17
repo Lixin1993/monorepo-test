@@ -182,7 +182,7 @@
     },
     "cors": {
       "origin": "*",
-      "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS",
+      "allowMethods": "GET,HEAD,PUT,POST,DELETE",
       "credentials": true
     },
     "mysql": {
@@ -222,8 +222,7 @@
       "description": "",
       "main": "index.js",
       "scripts": {
-        "dev": "egg-bin dev",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "egg-bin dev"
       },
       "author": "",
       "license": "ISC",
@@ -234,7 +233,7 @@
         "egg-mysql": "^3.0.0",
         "egg-security": "^2.7.1",
         "egg-view-nunjucks": "^2.2.0",
-        "node-uuid": "^1.4.8"
+        "uuid": "^8.1.0"
       },
       "devDependencies": {
         "egg-bin": "^4.14.1"
@@ -343,26 +342,6 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "news": {
-      "key": "30b23529aee026f95780daf1dec571dc",
-      "serverUrl": "http://op.juhe.cn/onebox/basketball/nba"
-    },
-    "weather": {
-      "key": "dab0b0b77ce4941a7df2bae6c3360ab0",
-      "serverUrl": "http://apis.juhe.cn/simpleWeather/query"
-    },
-    "todoList": {
-      "todo": [
-        "李昕",
-        "冯琦",
-        "李乔熙"
-      ],
-      "done": [
-        "lixin",
-        "fengqi",
-        "liqiaoxi"
-      ]
-    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [
       "jwt"
@@ -391,7 +370,7 @@
       "env": [],
       "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-session",
-      "version": "3.1.0"
+      "version": "3.2.0"
     },
     "security": {
       "enable": true,
@@ -404,7 +383,7 @@
       "env": [],
       "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-security",
-      "version": "2.7.1"
+      "version": "2.8.0"
     },
     "jsonp": {
       "enable": true,
@@ -452,7 +431,7 @@
       "env": [],
       "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-watcher",
-      "version": "3.1.0"
+      "version": "3.1.1"
     },
     "schedule": {
       "enable": true,
@@ -476,7 +455,7 @@
       "env": [],
       "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-multipart",
-      "version": "2.10.1"
+      "version": "2.10.3"
     },
     "development": {
       "enable": true,
@@ -491,7 +470,7 @@
       ],
       "from": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg/config/plugin.js",
       "path": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-development",
-      "version": "2.4.3"
+      "version": "2.5.0"
     },
     "logrotator": {
       "enable": true,

@@ -1,0 +1,34 @@
+.slogan {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  height: 32px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 20px;
+}
+
+.content {
+  margin: 16px; 
+  padding: 24px; 
+  min-height: 50vh; 
+  background: #fff; 
+  overflow: auto;
+}
+
+.content-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 64px;
+  background-color: #fff;
+  padding: 0 16px;
+  padding-right: 32px;
+}
+
+.ant-breadcrumb {
+  margin-bottom: 15px;
+}

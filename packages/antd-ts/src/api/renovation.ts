@@ -6,11 +6,12 @@ export interface ITableSetting {
 }
 
 export interface IItemDataSource {
-  key: string,
+  id: string,
   name?: string,
   typeName: string,
   type: string,
   price: number,
+  total: number,
 }
 
 interface IRowData {
@@ -28,10 +29,10 @@ export function addRenovationBaseItem(payload: IRowData) {
   return axios.post('/renovation/base/item', payload).then(res => res.data)
 }
 
-export function deleteRenovationBaseItem(payload: string) {
-  return axios.delete(`/renovation/base/item/${payload}`).then(res => res.data)
+export function deleteRenovationBaseItem(id: string) {
+  return axios.delete(`/renovation/base/item/${id}`).then(res => res.data)
 }
 
 export function updateRenovationBaseItem(payload: IItemDataSource) {
-  return axios.put(`/renovation/base/item/${payload.key}`, payload).then(res => res.data)
+  return axios.put(`/renovation/base/item/${payload.id}`, payload).then(res => res.data)
 }

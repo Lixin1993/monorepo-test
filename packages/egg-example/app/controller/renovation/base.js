@@ -20,18 +20,17 @@ class RenovationBaseController extends Controller {
 
   async deleteItem() {
     const ctx = this.ctx
-    const key = ctx.params
-    const data = await ctx.service.renovation.base.deleteItem(key)
+    const id = ctx.params.key
+    const data = await ctx.service.renovation.base.deleteItem(id)
 
     return ctx.body = { code: 0, data }
   }
 
   async updateItem() {
     const ctx = this.ctx
-    const key = ctx.params
+    const id = ctx.params.key
     const body = ctx.request.body
-    console.log(key, body)
-    const data = await ctx.service.renovation.base.updateItem(key, body)
+    const data = await ctx.service.renovation.base.updateItem(id, body)
 
     return ctx.body = { code: 0, data }
   }

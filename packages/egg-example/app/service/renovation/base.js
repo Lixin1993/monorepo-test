@@ -10,21 +10,21 @@ class RenovationBaseService extends Service {
   }
   async addItem(item) {
     const clenit = this.app.mysql.get('db1')
-    const key = UUID.v1()
-    const data = { id: key, key, ...item }
+    const id = UUID.v1()
+    const data = { id, ...item }
     const result = await clenit.insert('renovation_base', data)
     const insertSuccess = result.affectedRows === 1
 
     return { result: insertSuccess }
   }
-  async deleteItem(key) {
+  async deleteItem(id) {
     const clenit = this.app.mysql.get('db1')
-    const result = await clenit.delete('renovation_base', key)
+    const result = await clenit.delete('renovation_base', { id })
     const deleteSuccess = result.affectedRows === 1
     
     return { result: deleteSuccess }
   }
-  async updateItem(key, body) {
+  async updateItem(id, body) {
     const clenit = this.app.mysql.get('db1')
     const result = await clenit.update('renovation_base', body)
     const deleteSuccess = result.affectedRows === 1

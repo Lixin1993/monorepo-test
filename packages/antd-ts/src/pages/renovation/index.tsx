@@ -2,13 +2,13 @@ import React, { useState, useEffect } from 'react'
 import { Table, Button, Icon, message, Modal } from 'antd'
 import ModalItem from './modalItem'
 import ChartModal from './chart'
-import { getRenovationBaseList, ITableSetting, deleteRenovationBaseItem, IItemDataSource } from '../../../api/renovation'
-import { IResponse } from '../../../api/initHttp'
+import { getRenovationBaseList, ITableSetting, deleteRenovationBaseItem, IItemDataSource } from '../../api/renovation'
+import { IResponse } from '../../api/initHttp'
 
 const { confirm } = Modal
 
 export interface IDataSource {
-  key: string,
+  id: string,
   type: string,
   name: string,
   typeName: string,
@@ -24,7 +24,7 @@ const createDataSource = (data: Array<IItemDataSource> | undefined): Array<IData
   const dataSource = types.map(item => {
     const typeNameItem = data.find((itemData: IItemDataSource) => itemData.type === item)
     return {
-      key: item,
+      id: item,
       type: item,
       name: typeNameItem ? typeNameItem.typeName : '',
       typeName: typeNameItem ? typeNameItem.typeName : '',
@@ -38,7 +38,7 @@ const createDataSource = (data: Array<IItemDataSource> | undefined): Array<IData
 const RenovationBase = () => {
   const [itemDataSource, setItemDataSource] = useState<Array<IItemDataSource>>([])
   const [dataSource, setDataSource] = useState<Array<IDataSource>>([])
-  const [itemKey, setItemKey] = useState('')
+  const [itemId, setItemId] = useState('')
   const [visibleTableDataModal, setVisibleTableDataModal] = useState(false)
   const [visibleChartModal, setVisibleChartModal] = useState(false)
   const [tableSetting, setTableSetting] = useState<ITableSetting>({ page: 1, size: 10 })
@@ -55,21 +55,20 @@ const RenovationBase = () => {
   }
 
   const createRowData = () => {
-    setItemKey('')
+    setItemId('')
     setVisibleTableDataModal(true)
   }
 
   const itemColumns = [
-    { title: '名称',  dataIndex: 'name',  key: 'name' },
-    { title: '金额', dataIndex: 'price', key: 'price' },
+    { title: '名称',  dataIndex: 'name' },
+    { title: '金额', dataIndex: 'price' },
     {
       title: '操作',
-      dataIndex: '',
-      key: 'action',
-      render: (record: IItemDataSource) => (
+      dataIndex: 'itemAction',
+      render: (text: string, record: IItemDataSource) => (
         <span>
           <Button style={{ marginRight: '8px' }} onClick={() => {
-            setItemKey(record.key)
+            setItemId(record.id)
             setVisibleTableDataModal(true)
           }}>编辑</Button>
           <Button onClick={() => {
@@ -77,7 +76,7 @@ const RenovationBase = () => {
               title: `确定删除 ${record.name}， 这条记录吗？`,
               icon: <Icon type="close-circle" />,
               async onOk() {
-                const response = await deleteRenovationBaseItem(record.key)
+                const response = await deleteRenovationBaseItem(record.id)
                 if (response.data.result) {
                   getData()
                   message.success('删除成功')
@@ -93,14 +92,13 @@ const RenovationBase = () => {
   ]
 
   const columns = [
-    { title: '类型', dataIndex: 'typeName', key: 'typeName' },
-    { title: '合计金额', dataIndex: 'price', key: 'price' },
-    { title: '项目数量', dataIndex: 'total', key: 'total' },
+    { title: '类型', dataIndex: 'typeName' },
+    { title: '合计金额', dataIndex: 'price' },
+    { title: '项目数量', dataIndex: 'total' },
     {
       title: '操作',
-      dataIndex: '',
-      key: 'action',
-      render: (record: IDataSource) => (
+      dataIndex: 'action',
+      render: (text: string, record: IDataSource) => (
         <Button style={{ marginRight: '12px' }} onClick={() => {
           const data = itemDataSource.filter((item: IItemDataSource) => item.type === record.type)
           setChartData(data)
@@ -110,12 +108,12 @@ const RenovationBase = () => {
     }
   ]
 
-  useEffect(() => getData(), [])
+  useEffect(getData, [])
 
   return (
     <div>
       <ModalItem
-        itemKey={itemKey}
+        id={itemId}
         visible={visibleTableDataModal}
         setVisible={setVisibleTableDataModal}
         data={itemDataSource}
@@ -136,6 +134,7 @@ const RenovationBase = () => {
       <Table
         dataSource={dataSource}
         columns={columns}
+        rowKey={record => record.id}
         pagination={{
           defaultCurrent: tableSetting.page,
           pageSize: tableSetting.size,
@@ -147,7 +146,7 @@ const RenovationBase = () => {
           showTotal: total => `一共 ${total} 项`,
         }}
         expandedRowRender={(record: any) => {
-          return <Table pagination={false} dataSource={itemDataSource.filter((item: IItemDataSource) => item.type === record.type)} columns={itemColumns} />
+          return <Table rowKey={record => record.id} pagination={false} dataSource={itemDataSource.filter((item: IItemDataSource) => item.type === record.type)} columns={itemColumns} />
         }}
       />
     </div>
