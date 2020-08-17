@@ -7,8 +7,9 @@
 
 # testing
 /coverage
-/run
-/logs
+run
+logs
+*.log
 
 # production
 /build
