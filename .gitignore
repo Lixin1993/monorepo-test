@@ -5,8 +5,8 @@
 
 # testing
 /coverage
-/packages/egg-example/run
-/packages/egg-example/logs
+/run
+/logs
 
 # production
 /build
