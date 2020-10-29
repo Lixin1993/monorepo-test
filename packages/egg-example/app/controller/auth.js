@@ -8,8 +8,7 @@ class AuthController extends Controller {
       username: body.username,
       password: body.password
     }, app.config.jwt.secret)
-
-    ctx.set({ 'x-auth-token': token })
+    ctx.session.token = token
     const data = { result: true, token }
     return ctx.body = { code: 0, data }
   }

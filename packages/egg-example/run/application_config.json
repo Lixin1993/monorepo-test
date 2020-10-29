@@ -2,9 +2,10 @@
   "config": {
     "session": {
       "maxAge": 86400000,
-      "key": "EGG_SESS",
+      "key": "x-auth-token",
       "httpOnly": true,
       "encrypt": true,
+      "renew": true,
       "overwrite": true,
       "signed": true,
       "autoCommit": true,
@@ -198,7 +199,7 @@
           "port": "3306",
           "user": "root",
           "password": "<String len: 8>",
-          "database": "renovation"
+          "database": "family"
         }
       }
     },

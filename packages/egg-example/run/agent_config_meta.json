@@ -79,10 +79,11 @@
     }
   },
   "session": {
-    "maxAge": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-session/config/config.default.js"
+    "key": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
+    "maxAge": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
+    "httpOnly": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
+    "encrypt": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js",
+    "renew": "/Users/lixin/project/monorepo/packages/egg-example/config/config.default.js"
   },
   "helper": {
     "shtml": "/Users/lixin/project/monorepo/packages/egg-example/node_modules/egg-security/config/config.default.js"

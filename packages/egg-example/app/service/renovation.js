@@ -24,7 +24,7 @@ class RenovationBaseService extends Service {
     
     return { result: deleteSuccess }
   }
-  async updateItem(id, body) {
+  async updateItem(body) {
     const clenit = this.app.mysql.get('db1')
     const result = await clenit.update('renovation_base', body)
     const deleteSuccess = result.affectedRows === 1

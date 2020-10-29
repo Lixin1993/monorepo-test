@@ -1,5 +1,4 @@
 import axios from 'axios'
-import cookies from 'react-cookies'
 
 export interface IResponse {
   code: number,
@@ -7,12 +6,20 @@ export interface IResponse {
 }
 
 function initHttp() {
-  axios.defaults.headers = axios.defaults.headers = { 'Access-Control-Allow-Origin': '*' }
+  axios.defaults.headers = axios.defaults.headers = {
+    'Access-Control-Allow-Origin': '*',
+    'x-auth-token': localStorage.getItem('token'),
+  }
   axios.defaults.baseURL = 'http://localhost:7001'
 
-  axios.interceptors.request.use(config => {
-    config.headers['x-auth-token'] = cookies.load('token')
-    return config
+  axios.interceptors.response.use(
+    response => {
+    return response
+  },error => {
+    if (error.response.status === 401) {
+      return window.location.href = '/login'
+    }
+    return { code: 401, data: '' }
   })
 }
 

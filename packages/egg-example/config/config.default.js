@@ -28,7 +28,7 @@ exports.mysql = {
       // 密码
       password: '12345678',
       // 数据库名
-      database: 'renovation',
+      database: 'family',
     },
   },
   // 是否加载到 app 上，默认开启
@@ -41,3 +41,10 @@ exports.security = {
   csrf: false,
 }
 
+exports.session = {
+  key: 'x-auth-token',
+  maxAge: 24 * 3600 * 1000, // 1 天
+  httpOnly: true,
+  encrypt: true,
+  renew: true,
+};

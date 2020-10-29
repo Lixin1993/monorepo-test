@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
-import { Modal, Form, Select, DatePicker, Input, Button, InputNumber, Row, Col, Icon } from 'antd'
+import { Modal, Form, Select, DatePicker, Input, Button, InputNumber, Row, Col, Icon, message } from 'antd'
 import { FormComponentProps } from 'antd/es/form'
+import { addPacketsItem, updatePacketsItem } from '../../api/packets'
 import moment from 'moment'
 import { Idata, IListItem } from './index'
 
@@ -9,13 +10,14 @@ const { Option } = Select
 type IProps = FormComponentProps & {
   rowData?: Idata,
   visible: boolean,
+  getList: () => void,
   setVisible: (payload: boolean) => void,
 }
 
-const emptyList = { name: '', value: null }
+const emptyList = { name: '', value: null, id: '', pid: '' }
 
 const EditModal = (props: IProps) => {
-  const { visible, setVisible, form, rowData } = props
+  const { visible, setVisible, form, rowData, getList } = props
   const { getFieldDecorator, validateFields } = form
   const [itemList, setItemList] = useState(rowData ? rowData.list : [emptyList])
 
@@ -45,7 +47,30 @@ const EditModal = (props: IProps) => {
 
   const submit = () => {
     validateFields((error, values) => {
-      console.log('-----values', values)
+      if (!error) {
+        const result = { ...values, date: values.date.format('YYYY-MM-DD') }
+        if (!rowData) {
+          addPacketsItem(result).then(res => {
+            if (res.data.result) {
+              message.success('添加成功')
+              getList()
+            } else {
+              message.error('添加失败')
+            }
+          })
+        } else {
+          result.id = rowData.id
+          updatePacketsItem(result).then(res => {
+            if (res.data.result) {
+              message.success('更新成功')
+              getList()
+            } else {
+              message.error('更新失败')
+            }
+          })
+        }
+      }
+      closeModal()
     })
   }
 
@@ -58,7 +83,7 @@ const EditModal = (props: IProps) => {
       onOk={submit}
       onCancel={closeModal}
     >
-      <Form labelCol={{ span: 5 }} wrapperCol={{ span: 13 }}>
+      <Form className='packetsModal' labelCol={{ span: 5 }} wrapperCol={{ span: 13 }}>
         <Form.Item label={'日期'}>
           {getFieldDecorator('date', {
             initialValue: rowData && moment(rowData.date),
@@ -83,6 +108,14 @@ const EditModal = (props: IProps) => {
             return (
               <Form.Item label={'项目'} key={index}>
                 <Row>
+                  <Col span={0}>
+                    <Form.Item>
+                      {getFieldDecorator(`list[${index}].id`, { initialValue: item.id })(<Input />)}
+                    </Form.Item>
+                    <Form.Item>
+                      {getFieldDecorator(`list[${index}].pid`, { initialValue: item.pid })(<Input />)}
+                    </Form.Item>
+                  </Col>
                   <Col span={8}>
                     {getFieldDecorator(`list[${index}].name`, {
                       initialValue: item.name,

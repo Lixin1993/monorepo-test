@@ -1,6 +1,5 @@
 import React from 'react'
 import { Form, Icon, Input, Button, Checkbox, message } from 'antd'
-import cookies from 'react-cookies'
 import { loginbyPwd, ILoginInfo } from '../../api/login'
 
 import './index.css'
@@ -13,7 +12,7 @@ const Login = (props: any) => {
         loginbyPwd(values).then(res => {
           if (res.data.result) {
             message.success('登录成功！')
-            cookies.save('token', res.data.token)
+            localStorage.setItem('token', res.data.token)
             window.location.href = '/renovation/base'
           }
         })

@@ -25,6 +25,11 @@ const typeMap: ITypeMap = {
   renovation: '装修队',
   window: '窗子',
   door: '门',
+  floorboard: '地板地砖',
+  stone: '石材',
+  wardrobe: '定做柜子',
+  soft: '软装',
+  paint: '乳胶漆',
   others: '其他',
 }
 

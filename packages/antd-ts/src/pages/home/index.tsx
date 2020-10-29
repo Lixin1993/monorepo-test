@@ -58,7 +58,7 @@ const App = () => {
           </header>
           <Content className="content">
             <Breadcrumb style={{ marginBottom: '15px' }}>
-              {pathname.map(item => <Breadcrumb.Item key={item}>{item}</Breadcrumb.Item>)}
+              {pathname.map((item, index) => <Breadcrumb.Item key={index}>{item}</Breadcrumb.Item>)}
             </Breadcrumb>
             <Switch>
               {sideMenu.map(item => item.children?.map((child) => <Route path={child.path} component={child.component} />))}

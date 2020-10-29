@@ -21,6 +21,7 @@
     "path": "/renovation/base/list",
     "regexp": "/^\\/renovation\\/base\\/list(?:\\/(?=$))?$/",
     "stack": [
+      "jwtErr",
       "wrappedController"
     ]
   },
@@ -33,6 +34,7 @@
     "path": "/renovation/base/item",
     "regexp": "/^\\/renovation\\/base\\/item(?:\\/(?=$))?$/",
     "stack": [
+      "jwtErr",
       "wrappedController"
     ]
   },
@@ -56,6 +58,7 @@
     "path": "/renovation/base/item/:key",
     "regexp": "/^\\/renovation\\/base\\/item\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
+      "jwtErr",
       "wrappedController"
     ]
   },
@@ -79,6 +82,82 @@
     "path": "/renovation/base/item/:key",
     "regexp": "/^\\/renovation\\/base\\/item\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/packets/list",
+    "regexp": "/^\\/packets\\/list(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/packets/item",
+    "regexp": "/^\\/packets\\/item(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "DELETE"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/packets/item/:id",
+    "regexp": "/^\\/packets\\/item\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "PUT"
+    ],
+    "paramNames": [
+      {
+        "name": "id",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/packets/item/:id",
+    "regexp": "/^\\/packets\\/item\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "jwtErr",
       "wrappedController"
     ]
   }

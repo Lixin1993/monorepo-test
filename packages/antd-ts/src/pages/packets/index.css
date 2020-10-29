@@ -5,10 +5,9 @@
   justify-content: space-between;
 }
 
-.ant-form-item-children>[id],.ant-input-number {
+.packetsModal .ant-form-item-children>[id],.ant-input-number {
   width: 100% !important;
 }
-
 
 .listBtn {
   margin-left: 20px;

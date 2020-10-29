@@ -39,12 +39,13 @@ const ChartModal = (props: IProps) => {
   return (
     <Modal
       width={'70vw'}
-      footer={undefined}
       title={'硬装金额统计表'}
       destroyOnClose
       visible={visible}
       onCancel={() => setVisible(false)}
     >
+      <div>共计 {data.reduce((prv, itemData) => (prv + Number(itemData.price)), 0)}.00 元</div>
+      <div>共计 {data.reduce((prv, itemData) => (prv + Number(itemData.total)), 0)} 项</div>
       <div ref={chartRef} style={{ width: '70vw', height: '60vh' }}></div>
     </Modal>
   )

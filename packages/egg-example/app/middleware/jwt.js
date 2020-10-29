@@ -6,7 +6,6 @@ module.exports = (options) => {
       try {
         // 解码token
         decode = ctx.app.jwt.verify(token, options.secret);
-        await next();
       } catch (error) {
         ctx.status = 401;
         ctx.body = { code: 401, message: error.message };
@@ -17,5 +16,7 @@ module.exports = (options) => {
       ctx.body = { code: 401, message: '没有token' };
       return;
     }
+
+    await next();
   };
 }
