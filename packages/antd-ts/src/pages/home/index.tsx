@@ -23,7 +23,7 @@ const App = () => {
   const openKey = submenuChildren?.find(item => item.path === path)?.title
 
   const [pathname, setPathname] = useState([submenuKey, openKey])
-
+  // throw new Error('this is an error')
   return (
     <ConfigProvider locale={zhCN}>
       <Layout>
@@ -36,20 +36,15 @@ const App = () => {
             mode="inline"
             onClick={({ keyPath }) => setPathname(keyPath.reverse())}
           >
-            {sideMenu.map((item) => {
-              return (
-                <SubMenu
-                  key={item.title}
-                  title={<span><Icon type={item.icon} /><span>{item.title}</span></span>}
-                >
+            {sideMenu.map((item) => (
+                <SubMenu key={item.title} title={<span><Icon type={item.icon} /><span>{item.title}</span></span>}>
                   {item.children?.map((child) => (
                     <Item key={child.title}>
                       <Link to={child.path}>{child.title}</Link>
                     </Item>
                   ))}
                 </SubMenu>
-              )
-            })}
+              ))}
           </Menu>
         </Sider>
         <Layout style={{ marginLeft: '200px', height: '100vh' }}>
